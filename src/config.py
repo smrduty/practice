@@ -1,0 +1,3 @@
+LINK = ""
+SEARCH_QUARY = ""
+TIMEOUT = 10000
