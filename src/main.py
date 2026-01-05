@@ -1,9 +1,10 @@
 import pandas as pd
 import asyncio
 from parser import parse_items
+from config import SEARCH_QUERY
 
 async def main():
-    data = await parse_items("Developer")
+    data = await parse_items(SEARCH_QUERY)
     df = pd.DataFrame(data)
     df.to_csv("D:/projects/project1/data/results.csv", index=False, encoding='utf-8')
 

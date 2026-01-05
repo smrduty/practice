@@ -1,40 +1,76 @@
 from playwright.async_api import async_playwright
 
+from config import BASE_URL, HEADLESS, SCROLL_TIMES, SCROLL_PAUSE, MAX_PAGES
+from logger import logger
+from utils import auto_scroll
+
 async def parse_items(query: str):
     results = []
+    logger.info("Starting parser...")
+    logger.info(f"Searching query: {query}")
 
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=False, slow_mo=50)
+        logger.info("Browser starting...")
+        browser = await p.chromium.launch(headless=HEADLESS, slow_mo=50)
         page = await browser.new_page()
-        await page.goto("https://hh.ru/")
+
+        logger.info("Following link...")
+        await page.goto(BASE_URL, timeout=60_000)
+
+        logger.info("Entering a query...")
         await page.fill("input[data-qa='search-input']", query)
         await page.keyboard.press("Enter")
 
-        #await page.locator("header [type='button']").click()
         await page.keyboard.press("Escape")
-        #await page.locator('xpath="/html/body/div[17]/div/div[1]/div[1]/div/div[2]/button"').click()
 
-
-        await page.wait_for_selector("[data-qa='vacancy-serp__vacancy']")
-        cards = page.locator("[data-qa='vacancy-serp__vacancy']")
-        count = await cards.count()
-        for i in range(count):
-            card = cards.nth(i)
-            title = await card.locator("[data-qa='serp-item__title-text']").text_content()
+        #logger.info("Waiting for vacancies...")
+        for page_number in range(MAX_PAGES):
             
-            salary_locator = card.locator("div[class^='compensation-labels'] > span")
-            if await salary_locator.count() > 0:
-                salary = await salary_locator.first.inner_text()
-            else:
-                salary = None
+            logger.info(f"Page number {page_number + 1}")
 
-            results.append({
-                "title": title,
-                "salary": salary
-            })
+            try:
+                await page.wait_for_selector("[data-qa='vacancy-serp__vacancy']")
+            except Exception:
+                logger.exception("No vacancies loaded")
+                return results
+            
+            await auto_scroll(page, SCROLL_TIMES, SCROLL_PAUSE)
+            
+            cards = page.locator("[data-qa='vacancy-serp__vacancy']")
+            count = await cards.count()
+            logger.info(f"Vacancies found: {count}")
+            for i in range(count):
+                card = cards.nth(i)
+                try:
+                    title = await card.locator("[data-qa='serp-item__title-text']").text_content()
+                except Exception:
+                    logger.warning("Couldn't get vacancy title")
+                    title = None
+                
+                try:
+                    salary_locator = card.locator("div[class^='compensation-labels'] > span")
+                    salary = await salary_locator.first.inner_text() if await salary_locator.count() else None
 
+                except Exception:
+                    logger.warning("Couldn't get vacancy salary")
+                    salary = None
 
+                results.append({
+                    "title": title,
+                    "salary": salary
+                })
+
+            next_page_button = page.locator("[data-qa='pager-next']")
+            if await next_page_button.count() == 0:
+                logger.info("NO next page button")
+                break
+
+            await next_page_button.click()
+            #await page.wait_for_load_state("networkidle", timeout=30000)
+
+        logger.info("Closing browser...")
         await browser.close()
 
+    logger.info("Ending parser...")
     return results
 
