@@ -71,6 +71,13 @@ async def parse_items(query: str):
                     logger.warning(f"Got a problem with an address...{e}")
                     complete_address = ""
 
+                try:
+                    url_locator = card.locator("[data-qa='serp-item__title']")
+                    url = await url_locator.get_attribute("href") if await url_locator.count() else None
+                except Exception as e:
+                    logger.warning(f"Couldn't get vacancy URL")
+                    url = None
+
                 #data-qa="vacancy-serp__vacancy-address"
                 #data-qa="address-metro-station-name"
 
@@ -78,7 +85,8 @@ async def parse_items(query: str):
                     "title": title,
                     "salary": salary,
                     "experience": experience,
-                    "address": complete_address
+                    "address": complete_address,
+                    "url": url
                 })
 
             next_page_button = page.locator("[data-qa='pager-next']")

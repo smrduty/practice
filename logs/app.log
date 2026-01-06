@@ -65,3 +65,1014 @@
 2026-01-05 09:14:49,672 | INFO | Vacancies found: 50
 2026-01-05 09:14:52,319 | INFO | Closing browser...
 2026-01-05 09:14:53,172 | INFO | Ending parser...
+2026-01-06 07:05:21,247 | INFO | Starting parser...
+2026-01-06 07:05:21,248 | INFO | Searching query: administrative manager
+2026-01-06 07:05:32,090 | INFO | Browser starting...
+2026-01-06 07:05:33,956 | INFO | Following link...
+2026-01-06 07:05:47,110 | INFO | Entering a query...
+2026-01-06 07:05:47,950 | INFO | Page number 1
+2026-01-06 07:05:50,661 | INFO | Starting scrolling: 10 times
+2026-01-06 07:06:02,938 | INFO | Scrolling ended
+2026-01-06 07:06:02,995 | INFO | Vacancies found: 50
+2026-01-06 07:06:04,180 | WARNING | Got a problem with an address...
+2026-01-06 07:06:05,231 | WARNING | Got a problem with an address...
+2026-01-06 07:06:05,690 | WARNING | Got a problem with an address...
+2026-01-06 07:06:06,827 | WARNING | Got a problem with an address...
+2026-01-06 07:06:07,777 | WARNING | Got a problem with an address...
+2026-01-06 07:06:08,486 | WARNING | Got a problem with an address...
+2026-01-06 07:06:09,107 | WARNING | Got a problem with an address...
+2026-01-06 07:06:10,255 | WARNING | Got a problem with an address...
+2026-01-06 07:06:10,795 | WARNING | Got a problem with an address...
+2026-01-06 07:06:11,316 | WARNING | Got a problem with an address...
+2026-01-06 07:06:11,983 | WARNING | Got a problem with an address...
+2026-01-06 07:06:13,104 | WARNING | Got a problem with an address...
+2026-01-06 07:06:13,756 | WARNING | Got a problem with an address...
+2026-01-06 07:06:14,876 | WARNING | Got a problem with an address...
+2026-01-06 07:06:15,589 | WARNING | Got a problem with an address...
+2026-01-06 07:06:16,201 | WARNING | Got a problem with an address...
+2026-01-06 07:06:16,797 | WARNING | Got a problem with an address...
+2026-01-06 07:06:17,829 | WARNING | Got a problem with an address...
+2026-01-06 07:06:18,481 | WARNING | Got a problem with an address...
+2026-01-06 07:06:19,012 | WARNING | Got a problem with an address...
+2026-01-06 07:06:20,063 | WARNING | Got a problem with an address...
+2026-01-06 07:06:20,698 | WARNING | Got a problem with an address...
+2026-01-06 07:06:21,114 | WARNING | Couldn't get an experience
+2026-01-06 07:06:22,136 | WARNING | Got a problem with an address...
+2026-01-06 07:06:23,028 | WARNING | Got a problem with an address...
+2026-01-06 07:06:23,608 | WARNING | Got a problem with an address...
+2026-01-06 07:06:24,666 | WARNING | Got a problem with an address...
+2026-01-06 07:06:25,265 | WARNING | Got a problem with an address...
+2026-01-06 07:06:26,394 | WARNING | Got a problem with an address...
+2026-01-06 07:06:27,022 | WARNING | Got a problem with an address...
+2026-01-06 07:06:27,622 | WARNING | Got a problem with an address...
+2026-01-06 07:06:28,651 | WARNING | Got a problem with an address...
+2026-01-06 07:06:29,710 | WARNING | Got a problem with an address...
+2026-01-06 07:06:30,329 | WARNING | Got a problem with an address...
+2026-01-06 07:06:31,336 | WARNING | Got a problem with an address...
+2026-01-06 07:06:31,882 | WARNING | Got a problem with an address...
+2026-01-06 07:06:32,366 | WARNING | Couldn't get an experience
+2026-01-06 07:06:32,804 | WARNING | Got a problem with an address...
+2026-01-06 07:06:33,832 | WARNING | Got a problem with an address...
+2026-01-06 07:06:34,414 | WARNING | Got a problem with an address...
+2026-01-06 07:06:35,083 | WARNING | Couldn't get an experience
+2026-01-06 07:06:35,609 | WARNING | Got a problem with an address...
+2026-01-06 07:06:36,314 | WARNING | Got a problem with an address...
+2026-01-06 07:06:37,379 | WARNING | Got a problem with an address...
+2026-01-06 07:06:37,806 | WARNING | Got a problem with an address...
+2026-01-06 07:06:38,238 | WARNING | Got a problem with an address...
+2026-01-06 07:06:38,787 | WARNING | Got a problem with an address...
+2026-01-06 07:06:39,376 | WARNING | Couldn't get an experience
+2026-01-06 07:06:39,768 | WARNING | Got a problem with an address...
+2026-01-06 07:06:40,421 | WARNING | Got a problem with an address...
+2026-01-06 07:06:41,028 | WARNING | Got a problem with an address...
+2026-01-06 07:06:42,065 | WARNING | Got a problem with an address...
+2026-01-06 07:06:43,114 | WARNING | Couldn't get an experience
+2026-01-06 07:06:44,213 | WARNING | Got a problem with an address...
+2026-01-06 07:06:45,295 | WARNING | Got a problem with an address...
+2026-01-06 07:06:45,315 | INFO | NO next page button
+2026-01-06 07:06:45,315 | INFO | Closing browser...
+2026-01-06 07:06:45,887 | INFO | Ending parser...
+2026-01-06 07:26:25,881 | INFO | Starting parser...
+2026-01-06 07:26:25,881 | INFO | Searching query: administrative manager
+2026-01-06 07:26:27,422 | INFO | Browser starting...
+2026-01-06 07:26:28,830 | INFO | Following link...
+2026-01-06 07:26:43,684 | INFO | Entering a query...
+2026-01-06 07:26:44,488 | INFO | Page number 1
+2026-01-06 07:26:48,231 | INFO | Starting scrolling: 10 times
+2026-01-06 07:27:02,221 | INFO | Scrolling ended
+2026-01-06 07:27:02,280 | INFO | Vacancies found: 50
+2026-01-06 07:27:03,049 | WARNING | Got a problem with an address...
+2026-01-06 07:27:03,905 | WARNING | Got a problem with an address...
+2026-01-06 07:27:04,579 | WARNING | Got a problem with an address...
+2026-01-06 07:27:05,662 | WARNING | Got a problem with an address...
+2026-01-06 07:27:06,690 | WARNING | Got a problem with an address...
+2026-01-06 07:27:07,705 | WARNING | Got a problem with an address...
+2026-01-06 07:27:08,307 | WARNING | Got a problem with an address...
+2026-01-06 07:27:09,311 | WARNING | Got a problem with an address...
+2026-01-06 07:27:09,961 | WARNING | Got a problem with an address...
+2026-01-06 07:27:10,497 | WARNING | Got a problem with an address...
+2026-01-06 07:27:11,196 | WARNING | Got a problem with an address...
+2026-01-06 07:27:12,327 | WARNING | Got a problem with an address...
+2026-01-06 07:27:12,988 | WARNING | Got a problem with an address...
+2026-01-06 07:27:14,093 | WARNING | Got a problem with an address...
+2026-01-06 07:27:14,718 | WARNING | Got a problem with an address...
+2026-01-06 07:27:15,411 | WARNING | Got a problem with an address...
+2026-01-06 07:27:16,444 | WARNING | Got a problem with an address...
+2026-01-06 07:27:17,544 | WARNING | Got a problem with an address...
+2026-01-06 07:27:18,190 | WARNING | Got a problem with an address...
+2026-01-06 07:27:18,716 | WARNING | Got a problem with an address...
+2026-01-06 07:27:19,725 | WARNING | Got a problem with an address...
+2026-01-06 07:27:20,372 | WARNING | Got a problem with an address...
+2026-01-06 07:27:20,716 | WARNING | Couldn't get an experience
+2026-01-06 07:27:21,672 | WARNING | Got a problem with an address...
+2026-01-06 07:27:22,598 | WARNING | Got a problem with an address...
+2026-01-06 07:27:23,053 | WARNING | Got a problem with an address...
+2026-01-06 07:27:24,092 | WARNING | Got a problem with an address...
+2026-01-06 07:27:24,669 | WARNING | Got a problem with an address...
+2026-01-06 07:27:25,565 | WARNING | Got a problem with an address...
+2026-01-06 07:27:26,609 | WARNING | Got a problem with an address...
+2026-01-06 07:27:27,281 | WARNING | Got a problem with an address...
+2026-01-06 07:27:28,349 | WARNING | Got a problem with an address...
+2026-01-06 07:27:29,415 | WARNING | Got a problem with an address...
+2026-01-06 07:27:30,097 | WARNING | Got a problem with an address...
+2026-01-06 07:27:31,228 | WARNING | Got a problem with an address...
+2026-01-06 07:27:31,752 | WARNING | Got a problem with an address...
+2026-01-06 07:27:32,135 | WARNING | Couldn't get an experience
+2026-01-06 07:27:32,546 | WARNING | Got a problem with an address...
+2026-01-06 07:27:33,544 | WARNING | Got a problem with an address...
+2026-01-06 07:27:34,159 | WARNING | Got a problem with an address...
+2026-01-06 07:27:34,749 | WARNING | Couldn't get an experience
+2026-01-06 07:27:35,336 | WARNING | Got a problem with an address...
+2026-01-06 07:27:35,958 | WARNING | Got a problem with an address...
+2026-01-06 07:27:36,973 | WARNING | Got a problem with an address...
+2026-01-06 07:27:37,411 | WARNING | Got a problem with an address...
+2026-01-06 07:27:37,822 | WARNING | Got a problem with an address...
+2026-01-06 07:27:38,280 | WARNING | Got a problem with an address...
+2026-01-06 07:27:38,876 | WARNING | Couldn't get an experience
+2026-01-06 07:27:39,251 | WARNING | Got a problem with an address...
+2026-01-06 07:27:39,828 | WARNING | Got a problem with an address...
+2026-01-06 07:27:40,540 | WARNING | Got a problem with an address...
+2026-01-06 07:27:41,631 | WARNING | Got a problem with an address...
+2026-01-06 07:27:42,216 | WARNING | Couldn't get an experience
+2026-01-06 07:27:43,311 | WARNING | Got a problem with an address...
+2026-01-06 07:27:44,376 | WARNING | Got a problem with an address...
+2026-01-06 07:27:44,414 | INFO | NO next page button
+2026-01-06 07:27:44,414 | INFO | Closing browser...
+2026-01-06 07:27:45,196 | INFO | Ending parser...
+2026-01-06 07:47:30,992 | INFO | Starting parser...
+2026-01-06 07:47:30,992 | INFO | Searching query: administrative manager
+2026-01-06 07:47:32,765 | INFO | Browser starting...
+2026-01-06 07:47:34,160 | INFO | Following link...
+2026-01-06 07:47:46,832 | INFO | Entering a query...
+2026-01-06 07:47:47,685 | INFO | Page number 1
+2026-01-06 07:47:52,058 | INFO | Starting scrolling: 10 times
+2026-01-06 07:48:05,413 | INFO | Scrolling ended
+2026-01-06 07:48:05,440 | INFO | Vacancies found: 50
+2026-01-06 07:48:05,936 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").first.locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-between1And3">Опыт 1-3 года</span> aka get_by_text("Опыт 1-3 года").first
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-between1And3">Опыт 1-3 года</span> aka get_by_text("Опыт 1-3 года").nth(1)
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").first.locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:06,530 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").first.locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka get_by_text("Москва").nth(2)
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka get_by_text("Москва").nth(3)
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka get_by_text("Москва").nth(4)
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka get_by_text("Москва").nth(5)
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").first.locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:48:07,173 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(1).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-between1And3">Опыт 1-3 года</span> aka get_by_text("Опыт 1-3 года").nth(2)
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-between1And3">Опыт 1-3 года</span> aka get_by_text("Опыт 1-3 года").nth(3)
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(1).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:07,867 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(1).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128606144\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .narrow-container--HaV4hduxPuElpx0V > span").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("div:nth-child(5) > span").first
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128606144\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .narrow-container--HaV4hduxPuElpx0V > span").first
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128606144\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(1).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:48:08,473 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(2).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-between3And6">Опыт 3-6 лет</span> aka get_by_text("Опыт 3-6 лет").first
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-between3And6">Опыт 3-6 лет</span> aka get_by_text("Опыт 3-6 лет").nth(1)
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(2).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:08,998 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(2).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"129199219\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .narrow-container--HaV4hduxPuElpx0V > .magritte-text___pbpft_4-4-2").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"129199219\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .wide-container--ZEcmUvt6oNs8OvdB > .magritte-text___pbpft_4-4-2").first
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"129199219\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .narrow-container--HaV4hduxPuElpx0V > .magritte-text___pbpft_4-4-2")
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"129199219\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .wide-container--ZEcmUvt6oNs8OvdB > .magritte-text___pbpft_4-4-2")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(2).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:48:09,478 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(3).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-between1And3">Опыт 1-3 года</span> aka get_by_text("Опыт 1-3 года").nth(4)
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-between1And3">Опыт 1-3 года</span> aka get_by_text("Опыт 1-3 года").nth(5)
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(3).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:10,187 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(3).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("div:nth-child(7) > div > .narrow-container--HaV4hduxPuElpx0V > span").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("div:nth-child(7) > div > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("div:nth-child(7) > div:nth-child(2) > .narrow-container--HaV4hduxPuElpx0V > span").first
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("div:nth-child(7) > div:nth-child(2) > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(3).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:48:10,890 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(4).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-moreThan6">Опыт более 6 лет</span> aka get_by_text("Опыт более 6 лет").first
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-moreThan6">Опыт более 6 лет</span> aka get_by_text("Опыт более 6 лет").nth(1)
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(4).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:11,871 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(4).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128854869\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .narrow-container--HaV4hduxPuElpx0V > span").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128854869\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128854869\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .narrow-container--HaV4hduxPuElpx0V > span").first
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128854869\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(4).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:48:12,309 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(5).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-between3And6">Опыт 3-6 лет</span> aka get_by_text("Опыт 3-6 лет").nth(2)
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-between3And6">Опыт 3-6 лет</span> aka get_by_text("Опыт 3-6 лет").nth(3)
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(5).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:13,339 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(5).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128872014\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > div:nth-child(6) > span").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128872014\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > div:nth-child(7) > span").first
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128872014\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > div:nth-child(8) > span").first
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128872014\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > div:nth-child(9) > span").first
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(5).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:48:14,059 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(6).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-between3And6">Опыт 3-6 лет</span> aka get_by_text("Опыт 3-6 лет").nth(4)
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-between3And6">Опыт 3-6 лет</span> aka get_by_text("Опыт 3-6 лет").nth(5)
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(6).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:14,683 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(6).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128334950\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .narrow-container--HaV4hduxPuElpx0V > .magritte-text___pbpft_4-4-2").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128334950\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .wide-container--ZEcmUvt6oNs8OvdB > .magritte-text___pbpft_4-4-2").first
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128334950\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .narrow-container--HaV4hduxPuElpx0V > .magritte-text___pbpft_4-4-2")
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128334950\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .wide-container--ZEcmUvt6oNs8OvdB > .magritte-text___pbpft_4-4-2")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(6).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:48:15,482 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(7).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-between3And6">Опыт 3-6 лет</span> aka locator("[id=\"128309509\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(5) > .compensation-labels--vwum2s12fQUurc2J > div > .magritte-tag__label___YHV-o_5-0-4 > span").first
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-between3And6">Опыт 3-6 лет</span> aka locator("[id=\"128309509\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(6) > .compensation-labels--vwum2s12fQUurc2J > div > .magritte-tag__label___YHV-o_5-0-4 > span").first
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(7).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:16,687 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(7).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128309509\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .narrow-container--HaV4hduxPuElpx0V > span").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128309509\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128309509\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .narrow-container--HaV4hduxPuElpx0V > span").first
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128309509\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(7).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:48:17,259 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(8).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-between3And6">Опыт 3-6 лет</span> aka locator("[id=\"128941298\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(5) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-between3And6">Опыт 3-6 лет</span> aka locator("[id=\"128941298\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(6) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(8).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:17,730 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(8).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва, р-н Пресненский</span> aka get_by_text("Москва, р-н Пресненский").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва, р-н Пресненский</span> aka get_by_text("Москва, р-н Пресненский").nth(1)
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва, р-н Пресненский</span> aka get_by_text("Москва, р-н Пресненский").nth(2)
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва, р-н Пресненский</span> aka get_by_text("Москва, р-н Пресненский").nth(3)
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(8).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:48:18,674 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(9).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-moreThan6">Опыт более 6 лет</span> aka get_by_text("Опыт более 6 лет").nth(2)
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-moreThan6">Опыт более 6 лет</span> aka get_by_text("Опыт более 6 лет").nth(3)
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(9).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:19,178 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(9).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва, р-н Пресненский</span> aka get_by_text("Москва, р-н Пресненский").nth(4)
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва, р-н Пресненский</span> aka get_by_text("Москва, р-н Пресненский").nth(5)
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва, р-н Пресненский</span> aka locator("[id=\"127123279\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .narrow-container--HaV4hduxPuElpx0V > .magritte-text___pbpft_4-4-2")
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва, р-н Пресненский</span> aka locator("[id=\"127123279\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .wide-container--ZEcmUvt6oNs8OvdB > .magritte-text___pbpft_4-4-2")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(9).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:48:19,880 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(10).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-between1And3">Опыт 1-3 года</span> aka locator("[id=\"129151805\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(7) > .compensation-labels--vwum2s12fQUurc2J > div > .magritte-tag__label___YHV-o_5-0-4 > span").first
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-between1And3">Опыт 1-3 года</span> aka locator("[id=\"129151805\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(8) > .compensation-labels--vwum2s12fQUurc2J > div > .magritte-tag__label___YHV-o_5-0-4 > span").first
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(10).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:20,479 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(10).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"129151805\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .narrow-container--HaV4hduxPuElpx0V > .magritte-text___pbpft_4-4-2").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"129151805\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .wide-container--ZEcmUvt6oNs8OvdB > .magritte-text___pbpft_4-4-2").first
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"129151805\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .narrow-container--HaV4hduxPuElpx0V > .magritte-text___pbpft_4-4-2")
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"129151805\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .wide-container--ZEcmUvt6oNs8OvdB > .magritte-text___pbpft_4-4-2")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(10).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:48:21,082 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(11).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-between1And3">Опыт 1-3 года</span> aka locator("[id=\"128870544\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(5) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-between1And3">Опыт 1-3 года</span> aka locator("[id=\"128870544\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(6) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(11).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:22,170 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(11).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128870544\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .narrow-container--HaV4hduxPuElpx0V > span").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128870544\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128870544\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .narrow-container--HaV4hduxPuElpx0V > span").first
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128870544\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(11).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:48:22,754 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(12).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-between3And6">Опыт 3-6 лет</span> aka locator("[id=\"128922124\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(5) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-between3And6">Опыт 3-6 лет</span> aka locator("[id=\"128922124\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(6) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(12).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:23,238 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(12).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128922124\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > div:nth-child(6) > .magritte-text___pbpft_4-4-2")
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128922124\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > div:nth-child(7) > .magritte-text___pbpft_4-4-2").first
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128922124\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > div:nth-child(8) > .magritte-text___pbpft_4-4-2")
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128922124\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > div:nth-child(9) > .magritte-text___pbpft_4-4-2")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(12).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:48:23,803 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(13).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-between3And6">Опыт 3-6 лет</span> aka locator("[id=\"128859242\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(5) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-between3And6">Опыт 3-6 лет</span> aka locator("[id=\"128859242\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(6) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(13).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:24,763 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(13).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128859242\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .narrow-container--HaV4hduxPuElpx0V > span").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128859242\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128859242\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .narrow-container--HaV4hduxPuElpx0V > span").first
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128859242\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(13).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:48:25,329 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(14).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-between3And6">Опыт 3-6 лет</span> aka locator("[id=\"125443415\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(5) > .compensation-labels--vwum2s12fQUurc2J > div > .magritte-tag__label___YHV-o_5-0-4 > span").first
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-between3And6">Опыт 3-6 лет</span> aka locator("[id=\"125443415\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(6) > .compensation-labels--vwum2s12fQUurc2J > div > .magritte-tag__label___YHV-o_5-0-4 > span").first
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(14).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:25,926 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(14).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"125443415\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .narrow-container--HaV4hduxPuElpx0V > .magritte-text___pbpft_4-4-2").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"125443415\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .wide-container--ZEcmUvt6oNs8OvdB > .magritte-text___pbpft_4-4-2").first
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"125443415\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .narrow-container--HaV4hduxPuElpx0V > .magritte-text___pbpft_4-4-2")
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"125443415\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .wide-container--ZEcmUvt6oNs8OvdB > .magritte-text___pbpft_4-4-2")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(14).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:48:26,570 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(15).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-between3And6">Опыт 3-6 лет</span> aka locator("[id=\"128828478\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(5) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-between3And6">Опыт 3-6 лет</span> aka locator("[id=\"128828478\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(6) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(15).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:27,255 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(15).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128828478\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .narrow-container--HaV4hduxPuElpx0V > .magritte-text___pbpft_4-4-2").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128828478\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .wide-container--ZEcmUvt6oNs8OvdB > .magritte-text___pbpft_4-4-2").first
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128828478\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .narrow-container--HaV4hduxPuElpx0V > .magritte-text___pbpft_4-4-2")
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128828478\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .wide-container--ZEcmUvt6oNs8OvdB > .magritte-text___pbpft_4-4-2")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(15).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:48:28,133 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(16).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-between3And6">Опыт 3-6 лет</span> aka locator("[id=\"127172957\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(5) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-between3And6">Опыт 3-6 лет</span> aka locator("[id=\"127172957\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(6) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(16).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:28,582 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(16).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Тбилиси, улица Жиули Шартава, 31/33</span> aka get_by_text("Тбилиси, улица Жиули Шартава, 31/").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Тбилиси, улица Жиули Шартава, 31/33</span> aka get_by_text("Тбилиси, улица Жиули Шартава, 31/").nth(1)
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Тбилиси, улица Жиули Шартава, 31/33</span> aka get_by_text("Тбилиси, улица Жиули Шартава, 31/").nth(2)
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Тбилиси, улица Жиули Шартава, 31/33</span> aka get_by_text("Тбилиси, улица Жиули Шартава, 31/").nth(3)
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(16).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:48:28,971 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(17).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-moreThan6">Опыт более 6 лет</span> aka get_by_text("Опыт более 6 лет").nth(4)
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-moreThan6">Опыт более 6 лет</span> aka get_by_text("Опыт более 6 лет").nth(5)
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(17).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:30,011 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(17).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128849823\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .narrow-container--HaV4hduxPuElpx0V > span").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128849823\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128849823\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .narrow-container--HaV4hduxPuElpx0V > span").first
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128849823\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(17).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:48:30,664 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(18).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-between3And6">Опыт 3-6 лет</span> aka locator("[id=\"129070075\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(5) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-between3And6">Опыт 3-6 лет</span> aka locator("[id=\"129070075\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(6) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(18).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:31,242 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(18).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"129070075\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .narrow-container--HaV4hduxPuElpx0V > .magritte-text___pbpft_4-4-2").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"129070075\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .wide-container--ZEcmUvt6oNs8OvdB > .magritte-text___pbpft_4-4-2").first
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"129070075\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .narrow-container--HaV4hduxPuElpx0V > .magritte-text___pbpft_4-4-2")
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"129070075\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .wide-container--ZEcmUvt6oNs8OvdB > .magritte-text___pbpft_4-4-2")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(18).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:48:32,095 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(19).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-between1And3">Опыт 1-3 года</span> aka locator("[id=\"128638474\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(5) > .compensation-labels--vwum2s12fQUurc2J > div > .magritte-tag__label___YHV-o_5-0-4 > span").first
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-between1And3">Опыт 1-3 года</span> aka locator("[id=\"128638474\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(6) > .compensation-labels--vwum2s12fQUurc2J > div > .magritte-tag__label___YHV-o_5-0-4 > span").first
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(19).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:32,571 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(19).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва, р-н Лефортово</span> aka get_by_text("Москва, р-н Лефортово").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва, р-н Лефортово</span> aka get_by_text("Москва, р-н Лефортово").nth(1)
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва, р-н Лефортово</span> aka get_by_text("Москва, р-н Лефортово").nth(2)
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва, р-н Лефортово</span> aka get_by_text("Москва, р-н Лефортово").nth(3)
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(19).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:48:33,355 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(20).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-between1And3">Опыт 1-3 года</span> aka locator("[id=\"128712539\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(5) > .compensation-labels--vwum2s12fQUurc2J > div > .magritte-tag__label___YHV-o_5-0-4 > span").first
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-between1And3">Опыт 1-3 года</span> aka locator("[id=\"128712539\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(6) > .compensation-labels--vwum2s12fQUurc2J > div > .magritte-tag__label___YHV-o_5-0-4 > span").first
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(20).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:34,430 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(20).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128712539\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .narrow-container--HaV4hduxPuElpx0V > span").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128712539\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128712539\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .narrow-container--HaV4hduxPuElpx0V > span").first
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128712539\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(20).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:48:35,046 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(21).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-between3And6">Опыт 3-6 лет</span> aka locator("[id=\"128498865\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(5) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-between3And6">Опыт 3-6 лет</span> aka locator("[id=\"128498865\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(6) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(21).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:35,544 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(21).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128498865\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .narrow-container--HaV4hduxPuElpx0V > .magritte-text___pbpft_4-4-2").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128498865\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .wide-container--ZEcmUvt6oNs8OvdB > .magritte-text___pbpft_4-4-2").first
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128498865\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .narrow-container--HaV4hduxPuElpx0V > .magritte-text___pbpft_4-4-2")
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128498865\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .wide-container--ZEcmUvt6oNs8OvdB > .magritte-text___pbpft_4-4-2")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(21).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:48:35,920 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(22).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-noExperience">Без опыта</span> aka get_by_text("Без опыта").first
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-noExperience">Без опыта</span> aka get_by_text("Без опыта").nth(1)
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(22).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:36,923 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(22).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128679996\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .narrow-container--HaV4hduxPuElpx0V > span").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128679996\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128679996\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .narrow-container--HaV4hduxPuElpx0V > span").first
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128679996\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(22).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:48:37,514 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(23).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-between1And3">Опыт 1-3 года</span> aka locator("[id=\"127937137\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(5) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-between1And3">Опыт 1-3 года</span> aka locator("[id=\"127937137\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(6) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(23).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:38,441 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(23).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"127937137\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .narrow-container--HaV4hduxPuElpx0V > span").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"127937137\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"127937137\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .narrow-container--HaV4hduxPuElpx0V > span").first
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"127937137\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(23).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:48:39,095 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(24).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-moreThan6">Опыт более 6 лет</span> aka locator("[id=\"128232324\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(5) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-moreThan6">Опыт более 6 лет</span> aka locator("[id=\"128232324\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(6) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(24).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:39,579 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(24).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва, р-н Савёловский</span> aka get_by_text("Москва, р-н Савёловский").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва, р-н Савёловский</span> aka get_by_text("Москва, р-н Савёловский").nth(1)
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва, р-н Савёловский</span> aka get_by_text("Москва, р-н Савёловский").nth(2)
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва, р-н Савёловский</span> aka get_by_text("Москва, р-н Савёловский").nth(3)
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(24).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:48:40,234 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(25).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-between3And6">Опыт 3-6 лет</span> aka locator("[id=\"128786726\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(5) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-between3And6">Опыт 3-6 лет</span> aka locator("[id=\"128786726\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(6) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(25).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:41,126 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(25).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128786726\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .narrow-container--HaV4hduxPuElpx0V > span").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128786726\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128786726\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .narrow-container--HaV4hduxPuElpx0V > span").first
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128786726\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(25).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:48:41,819 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(26).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-between1And3">Опыт 1-3 года</span> aka locator("[id=\"128856019\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(5) > .compensation-labels--vwum2s12fQUurc2J > div > .magritte-tag__label___YHV-o_5-0-4 > span").first
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-between1And3">Опыт 1-3 года</span> aka locator("[id=\"128856019\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(6) > .compensation-labels--vwum2s12fQUurc2J > div > .magritte-tag__label___YHV-o_5-0-4 > span").first
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(26).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:42,320 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(26).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва, р-н Лефортово</span> aka get_by_text("Москва, р-н Лефортово").nth(4)
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва, р-н Лефортово</span> aka get_by_text("Москва, р-н Лефортово").nth(5)
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва, р-н Лефортово</span> aka locator("[id=\"128856019\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > div:nth-child(8) > .magritte-text___pbpft_4-4-2")
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва, р-н Лефортово</span> aka locator("[id=\"128856019\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > div:nth-child(9) > .magritte-text___pbpft_4-4-2")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(26).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:48:42,962 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(27).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-moreThan6">Опыт более 6 лет</span> aka locator("[id=\"128795600\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(5) > .compensation-labels--vwum2s12fQUurc2J > div > .magritte-tag__label___YHV-o_5-0-4 > span").first
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-moreThan6">Опыт более 6 лет</span> aka locator("[id=\"128795600\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(6) > .compensation-labels--vwum2s12fQUurc2J > div > .magritte-tag__label___YHV-o_5-0-4 > span").first
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(27).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:43,642 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(27).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128795600\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .narrow-container--HaV4hduxPuElpx0V > .magritte-text___pbpft_4-4-2").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128795600\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .wide-container--ZEcmUvt6oNs8OvdB > .magritte-text___pbpft_4-4-2").first
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128795600\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .narrow-container--HaV4hduxPuElpx0V > .magritte-text___pbpft_4-4-2")
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128795600\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .wide-container--ZEcmUvt6oNs8OvdB > .magritte-text___pbpft_4-4-2")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(27).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:48:44,292 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(28).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-between3And6">Опыт 3-6 лет</span> aka locator("[id=\"128493303\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(5) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-between3And6">Опыт 3-6 лет</span> aka locator("[id=\"128493303\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(6) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(28).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:45,357 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(28).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128493303\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .narrow-container--HaV4hduxPuElpx0V > span").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128493303\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128493303\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .narrow-container--HaV4hduxPuElpx0V > span").first
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128493303\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(28).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:48:45,946 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(29).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-between1And3">Опыт 1-3 года</span> aka locator("[id=\"128793334\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(5) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-between1And3">Опыт 1-3 года</span> aka locator("[id=\"128793334\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(6) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(29).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:46,507 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(29).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128793334\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .narrow-container--HaV4hduxPuElpx0V > .magritte-text___pbpft_4-4-2").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128793334\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .wide-container--ZEcmUvt6oNs8OvdB > .magritte-text___pbpft_4-4-2").first
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128793334\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .narrow-container--HaV4hduxPuElpx0V > .magritte-text___pbpft_4-4-2")
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128793334\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .wide-container--ZEcmUvt6oNs8OvdB > .magritte-text___pbpft_4-4-2")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(29).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:48:47,270 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(30).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-between1And3">Опыт 1-3 года</span> aka locator("[id=\"128331360\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(5) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-between1And3">Опыт 1-3 года</span> aka locator("[id=\"128331360\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(6) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(30).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:48,249 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(30).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128331360\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .narrow-container--HaV4hduxPuElpx0V > span").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128331360\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128331360\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .narrow-container--HaV4hduxPuElpx0V > span").first
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128331360\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(30).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:48:48,893 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(31).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-between3And6">Опыт 3-6 лет</span> aka locator("[id=\"128988635\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(7) > .compensation-labels--vwum2s12fQUurc2J > div > .magritte-tag__label___YHV-o_5-0-4 > span").first
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-between3And6">Опыт 3-6 лет</span> aka locator("[id=\"128988635\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(8) > .compensation-labels--vwum2s12fQUurc2J > div > .magritte-tag__label___YHV-o_5-0-4 > span").first
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(31).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:50,011 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(31).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128988635\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .narrow-container--HaV4hduxPuElpx0V > span").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128988635\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128988635\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .narrow-container--HaV4hduxPuElpx0V > span").first
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128988635\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(31).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:48:50,609 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(32).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-between1And3">Опыт 1-3 года</span> aka locator("[id=\"128640386\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(5) > .compensation-labels--vwum2s12fQUurc2J > div > .magritte-tag__label___YHV-o_5-0-4 > span").first
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-between1And3">Опыт 1-3 года</span> aka locator("[id=\"128640386\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(6) > .compensation-labels--vwum2s12fQUurc2J > div > .magritte-tag__label___YHV-o_5-0-4 > span").first
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(32).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:51,265 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(32).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128640386\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .narrow-container--HaV4hduxPuElpx0V > .magritte-text___pbpft_4-4-2").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128640386\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .wide-container--ZEcmUvt6oNs8OvdB > .magritte-text___pbpft_4-4-2").first
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128640386\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .narrow-container--HaV4hduxPuElpx0V > .magritte-text___pbpft_4-4-2")
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128640386\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .wide-container--ZEcmUvt6oNs8OvdB > .magritte-text___pbpft_4-4-2")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(32).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:48:52,329 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(33).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-between1And3">Опыт 1-3 года</span> aka locator("[id=\"125448459\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(5) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-between1And3">Опыт 1-3 года</span> aka locator("[id=\"125448459\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(6) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(33).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:53,532 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(33).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"125448459\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .narrow-container--HaV4hduxPuElpx0V > span").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"125448459\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"125448459\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .narrow-container--HaV4hduxPuElpx0V > span").first
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"125448459\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(33).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:48:54,149 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(34).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-between3And6">Опыт 3-6 лет</span> aka locator("[id=\"128480212\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(5) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-between3And6">Опыт 3-6 лет</span> aka locator("[id=\"128480212\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(6) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(34).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:54,498 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(34).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва, р-н Отрадное</span> aka get_by_text("Москва, р-н Отрадное").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва, р-н Отрадное</span> aka get_by_text("Москва, р-н Отрадное").nth(1)
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва, р-н Отрадное</span> aka get_by_text("Москва, р-н Отрадное").nth(2)
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва, р-н Отрадное</span> aka get_by_text("Москва, р-н Отрадное").nth(3)
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(34).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:48:54,871 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(35).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-noExperience">Без опыта</span> aka get_by_text("Без опыта").nth(2)
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-noExperience">Без опыта</span> aka get_by_text("Без опыта").nth(3)
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(35).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:55,247 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(35).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва, р-н Войковский</span> aka get_by_text("Москва, р-н Войковский").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва, р-н Войковский</span> aka get_by_text("Москва, р-н Войковский").nth(1)
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва, р-н Войковский</span> aka get_by_text("Москва, р-н Войковский").nth(2)
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва, р-н Войковский</span> aka get_by_text("Москва, р-н Войковский").nth(3)
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(35).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:48:55,878 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(36).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-between1And3">Опыт 1-3 года</span> aka locator("[id=\"128270671\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(5) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-between1And3">Опыт 1-3 года</span> aka locator("[id=\"128270671\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(6) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(36).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:56,872 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(36).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128270671\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .narrow-container--HaV4hduxPuElpx0V > span").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128270671\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128270671\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .narrow-container--HaV4hduxPuElpx0V > span").first
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128270671\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(36).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:48:57,552 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(37).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-moreThan6">Опыт более 6 лет</span> aka locator("[id=\"128436011\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(5) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-moreThan6">Опыт более 6 лет</span> aka locator("[id=\"128436011\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(6) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(37).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:58,139 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(37).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва, р-н Пресненский</span> aka locator("[id=\"128436011\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .narrow-container--HaV4hduxPuElpx0V > .magritte-text___pbpft_4-4-2").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва, р-н Пресненский</span> aka locator("[id=\"128436011\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .wide-container--ZEcmUvt6oNs8OvdB > .magritte-text___pbpft_4-4-2").first
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва, р-н Пресненский</span> aka locator("[id=\"128436011\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .narrow-container--HaV4hduxPuElpx0V > .magritte-text___pbpft_4-4-2")
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва, р-н Пресненский</span> aka locator("[id=\"128436011\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .wide-container--ZEcmUvt6oNs8OvdB > .magritte-text___pbpft_4-4-2")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(37).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:48:58,903 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(38).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-noExperience">Без опыта</span> aka get_by_text("Без опыта").nth(4)
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-noExperience">Без опыта</span> aka get_by_text("Без опыта").nth(5)
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(38).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:48:59,483 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(38).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128643108\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .narrow-container--HaV4hduxPuElpx0V > .magritte-text___pbpft_4-4-2").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128643108\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .wide-container--ZEcmUvt6oNs8OvdB > .magritte-text___pbpft_4-4-2").first
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128643108\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .narrow-container--HaV4hduxPuElpx0V > .magritte-text___pbpft_4-4-2")
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128643108\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .wide-container--ZEcmUvt6oNs8OvdB > .magritte-text___pbpft_4-4-2")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(38).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:49:00,102 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(39).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-between3And6">Опыт 3-6 лет</span> aka locator("[id=\"128685808\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(5) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-between3And6">Опыт 3-6 лет</span> aka locator("[id=\"128685808\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(6) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(39).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:49:00,643 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(39).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128685808\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .narrow-container--HaV4hduxPuElpx0V > .magritte-text___pbpft_4-4-2").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128685808\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .wide-container--ZEcmUvt6oNs8OvdB > .magritte-text___pbpft_4-4-2").first
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128685808\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .narrow-container--HaV4hduxPuElpx0V > .magritte-text___pbpft_4-4-2")
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128685808\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .wide-container--ZEcmUvt6oNs8OvdB > .magritte-text___pbpft_4-4-2")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(39).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:49:01,253 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(40).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-moreThan6">Опыт более 6 лет</span> aka locator("[id=\"126807678\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(5) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-moreThan6">Опыт более 6 лет</span> aka locator("[id=\"126807678\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(6) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(40).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:49:02,274 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(40).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"126807678\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .narrow-container--HaV4hduxPuElpx0V > span").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"126807678\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"126807678\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .narrow-container--HaV4hduxPuElpx0V > span").first
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"126807678\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(40).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:49:03,195 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(41).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-between1And3">Опыт 1-3 года</span> aka locator("[id=\"128264223\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(7) > .compensation-labels--vwum2s12fQUurc2J > div > .magritte-tag__label___YHV-o_5-0-4 > span").first
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-between1And3">Опыт 1-3 года</span> aka locator("[id=\"128264223\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(8) > .compensation-labels--vwum2s12fQUurc2J > div > .magritte-tag__label___YHV-o_5-0-4 > span").first
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(41).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:49:03,584 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(41).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва, р-н Хамовники</span> aka get_by_text("Москва, р-н Хамовники").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва, р-н Хамовники</span> aka get_by_text("Москва, р-н Хамовники").nth(1)
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва, р-н Хамовники</span> aka get_by_text("Москва, р-н Хамовники").nth(2)
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва, р-н Хамовники</span> aka get_by_text("Москва, р-н Хамовники").nth(3)
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(41).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:49:04,100 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(42).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-between3And6">Опыт 3-6 лет</span> aka locator("[id=\"128784159\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(5) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-between3And6">Опыт 3-6 лет</span> aka locator("[id=\"128784159\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(6) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(42).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:49:04,486 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(42).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">деревня Румянцево</span> aka get_by_text("деревня Румянцево").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">деревня Румянцево</span> aka get_by_text("деревня Румянцево").nth(1)
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">деревня Румянцево</span> aka get_by_text("деревня Румянцево").nth(2)
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">деревня Румянцево</span> aka get_by_text("деревня Румянцево").nth(3)
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(42).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:49:05,126 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(43).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-between1And3">Опыт 1-3 года</span> aka locator("[id=\"128795229\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(5) > .compensation-labels--vwum2s12fQUurc2J > div > .magritte-tag__label___YHV-o_5-0-4 > span").first
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-between1And3">Опыт 1-3 года</span> aka locator("[id=\"128795229\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(6) > .compensation-labels--vwum2s12fQUurc2J > div > .magritte-tag__label___YHV-o_5-0-4 > span").first
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(43).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:49:05,540 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(43).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Нью-Йорк, улица 43-я Ист</span> aka get_by_text("Нью-Йорк, улица 43-я Ист").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Нью-Йорк, улица 43-я Ист</span> aka get_by_text("Нью-Йорк, улица 43-я Ист").nth(1)
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Нью-Йорк, улица 43-я Ист</span> aka get_by_text("Нью-Йорк, улица 43-я Ист").nth(2)
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Нью-Йорк, улица 43-я Ист</span> aka get_by_text("Нью-Йорк, улица 43-я Ист").nth(3)
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(43).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:49:06,129 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(44).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-noExperience">Без опыта</span> aka locator("[id=\"129074821\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(5) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-noExperience">Без опыта</span> aka locator("[id=\"129074821\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(6) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(44).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:49:06,449 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(44).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Лос-Анджелес</span> aka get_by_text("Лос-Анджелес").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Лос-Анджелес</span> aka get_by_text("Лос-Анджелес").nth(1)
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Лос-Анджелес</span> aka get_by_text("Лос-Анджелес").nth(2)
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Лос-Анджелес</span> aka get_by_text("Лос-Анджелес").nth(3)
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(44).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:49:07,138 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(45).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-moreThan6">Опыт более 6 лет</span> aka locator("[id=\"129081598\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(5) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-moreThan6">Опыт более 6 лет</span> aka locator("[id=\"129081598\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(6) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(45).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:49:07,648 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(45).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"129081598\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .narrow-container--HaV4hduxPuElpx0V > .magritte-text___pbpft_4-4-2").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"129081598\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .wide-container--ZEcmUvt6oNs8OvdB > .magritte-text___pbpft_4-4-2").first
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"129081598\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .narrow-container--HaV4hduxPuElpx0V > .magritte-text___pbpft_4-4-2")
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"129081598\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .wide-container--ZEcmUvt6oNs8OvdB > .magritte-text___pbpft_4-4-2")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(45).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:49:08,198 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(46).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-between3And6">Опыт 3-6 лет</span> aka locator("[id=\"126835630\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(5) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-between3And6">Опыт 3-6 лет</span> aka locator("[id=\"126835630\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(6) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(46).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:49:08,720 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(46).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"126835630\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .narrow-container--HaV4hduxPuElpx0V > .magritte-text___pbpft_4-4-2").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"126835630\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .wide-container--ZEcmUvt6oNs8OvdB > .magritte-text___pbpft_4-4-2").first
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"126835630\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .narrow-container--HaV4hduxPuElpx0V > .magritte-text___pbpft_4-4-2")
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"126835630\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .wide-container--ZEcmUvt6oNs8OvdB > .magritte-text___pbpft_4-4-2")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(46).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:49:09,381 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(47).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-between1And3">Опыт 1-3 года</span> aka locator("[id=\"128858367\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(5) > .compensation-labels--vwum2s12fQUurc2J > div > .magritte-tag__label___YHV-o_5-0-4 > span").first
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-between1And3">Опыт 1-3 года</span> aka locator("[id=\"128858367\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(6) > .compensation-labels--vwum2s12fQUurc2J > div > .magritte-tag__label___YHV-o_5-0-4 > span").first
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(47).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:49:10,406 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(47).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128858367\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .narrow-container--HaV4hduxPuElpx0V > span").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128858367\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128858367\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .narrow-container--HaV4hduxPuElpx0V > span").first
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128858367\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(47).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:49:11,113 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(48).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-noExperience">Без опыта</span> aka locator("[id=\"128866265\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(5) > .compensation-labels--vwum2s12fQUurc2J > div > .magritte-tag__label___YHV-o_5-0-4 > span").first
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-noExperience">Без опыта</span> aka locator("[id=\"128866265\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(6) > .compensation-labels--vwum2s12fQUurc2J > div > .magritte-tag__label___YHV-o_5-0-4 > span").first
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(48).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:49:12,160 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(48).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128866265\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .narrow-container--HaV4hduxPuElpx0V > span").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128866265\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128866265\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .narrow-container--HaV4hduxPuElpx0V > span").first
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128866265\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(48).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:49:12,687 | WARNING | Couldn't get an experienceLocator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(49).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']") resolved to 2 elements:
+    1) <span data-qa="vacancy-serp__vacancy-work-experience-between1And3">Опыт 1-3 года</span> aka locator("[id=\"128582806\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(5) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+    2) <span data-qa="vacancy-serp__vacancy-work-experience-between1And3">Опыт 1-3 года</span> aka locator("[id=\"128582806\"] > .vacancy-info--ieHKDTkezpEj0Gsx > div:nth-child(6) > .compensation-labels--vwum2s12fQUurc2J > .magritte-tag___WdGxk_5-0-4 > .magritte-tag__label___YHV-o_5-0-4 > span")
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(49).locator("[data-qa^='vacancy-serp__vacancy-work-experience-']")
+
+2026-01-06 07:49:13,619 | WARNING | Got a problem with an address...Locator.text_content: Error: strict mode violation: locator("[data-qa='vacancy-serp__vacancy']").nth(49).locator("[data-qa='vacancy-serp__vacancy-address']") resolved to 4 elements:
+    1) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128582806\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .narrow-container--HaV4hduxPuElpx0V > span").first
+    2) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128582806\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+    3) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128582806\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .narrow-container--HaV4hduxPuElpx0V > span").first
+    4) <span data-qa="vacancy-serp__vacancy-address" class="magritte-text___pbpft_4-4-2 magritte-text_style-primary___AQ7MW_4-4-2 magritte-text_typography-label-3-regular___Nhtlp_4-4-2">Москва</span> aka locator("[id=\"128582806\"] > .vacancy-info--ieHKDTkezpEj0Gsx > .info-section--YaC_npvTFcwpFd1I > div:nth-child(2) > .wide-container--ZEcmUvt6oNs8OvdB > span").first
+
+Call log:
+  - waiting for locator("[data-qa='vacancy-serp__vacancy']").nth(49).locator("[data-qa='vacancy-serp__vacancy-address']")
+
+2026-01-06 07:49:13,637 | INFO | NO next page button
+2026-01-06 07:49:13,637 | INFO | Closing browser...
+2026-01-06 07:49:14,491 | INFO | Ending parser...
+2026-01-06 08:08:57,244 | INFO | Starting parser...
+2026-01-06 08:08:57,255 | INFO | Searching query: administrative manager
+2026-01-06 08:08:58,790 | INFO | Browser starting...
+2026-01-06 08:09:00,501 | INFO | Following link...
+2026-01-06 08:09:12,797 | INFO | Entering a query...
+2026-01-06 08:09:13,712 | INFO | Page number 1
+2026-01-06 08:09:16,661 | INFO | Starting scrolling: 10 times
+2026-01-06 08:09:29,947 | INFO | Scrolling ended
+2026-01-06 08:09:29,985 | INFO | Vacancies found: 50
+2026-01-06 08:09:37,111 | INFO | NO next page button
+2026-01-06 08:09:37,116 | INFO | Closing browser...
+2026-01-06 08:09:37,769 | INFO | Ending parser...
+2026-01-07 02:16:32,937 | INFO | Starting parser...
+2026-01-07 02:16:32,942 | INFO | Searching query: водитель
+2026-01-07 02:16:50,787 | INFO | Browser starting...
+2026-01-07 02:16:52,302 | INFO | Following link...
+2026-01-07 02:17:03,128 | INFO | Entering a query...
+2026-01-07 02:17:03,772 | INFO | Page number 1
+2026-01-07 02:17:09,914 | INFO | Starting scrolling: 10 times
+2026-01-07 02:17:20,915 | INFO | Scrolling ended
+2026-01-07 02:17:20,989 | INFO | Vacancies found: 50
+2026-01-07 02:17:30,495 | INFO | Page number 2
+2026-01-07 02:17:30,521 | INFO | Starting scrolling: 10 times
+2026-01-07 02:17:43,213 | INFO | Scrolling ended
+2026-01-07 02:17:43,233 | INFO | Vacancies found: 50
+2026-01-07 02:17:53,325 | INFO | Page number 3
+2026-01-07 02:17:53,356 | INFO | Starting scrolling: 10 times
+2026-01-07 02:18:05,850 | INFO | Scrolling ended
+2026-01-07 02:18:05,879 | INFO | Vacancies found: 50
+2026-01-07 02:18:15,537 | INFO | Page number 4
+2026-01-07 02:18:15,566 | INFO | Starting scrolling: 10 times
+2026-01-07 02:18:27,581 | INFO | Scrolling ended
+2026-01-07 02:18:27,608 | INFO | Vacancies found: 50
+2026-01-07 02:18:38,062 | INFO | Page number 5
+2026-01-07 02:18:38,087 | INFO | Starting scrolling: 10 times
+2026-01-07 02:18:50,930 | INFO | Scrolling ended
+2026-01-07 02:18:50,954 | INFO | Vacancies found: 50
+2026-01-07 02:19:00,855 | INFO | Closing browser...
+2026-01-07 02:19:01,461 | INFO | Ending parser...
+2026-01-07 02:32:21,876 | INFO | Starting parser...
+2026-01-07 02:32:21,876 | INFO | Searching query: кассир
+2026-01-07 02:32:23,110 | INFO | Browser starting...
+2026-01-07 02:32:24,136 | INFO | Following link...
+2026-01-07 02:32:35,425 | INFO | Entering a query...
+2026-01-07 02:32:36,348 | INFO | Page number 1
+2026-01-07 02:32:39,526 | INFO | Starting scrolling: 10 times
+2026-01-07 02:32:52,823 | INFO | Scrolling ended
+2026-01-07 02:32:52,856 | INFO | Vacancies found: 50
+2026-01-07 02:33:02,384 | INFO | Page number 2
+2026-01-07 02:33:02,408 | INFO | Starting scrolling: 10 times
+2026-01-07 02:33:15,925 | INFO | Scrolling ended
+2026-01-07 02:33:15,956 | INFO | Vacancies found: 50
+2026-01-07 02:33:26,914 | INFO | Closing browser...
+2026-01-07 02:33:27,964 | INFO | Ending parser...
+2026-01-07 02:34:21,024 | INFO | Starting parser...
+2026-01-07 02:34:21,024 | INFO | Searching query: кассир
+2026-01-07 02:34:22,100 | INFO | Browser starting...
+2026-01-07 02:34:23,016 | INFO | Following link...
+2026-01-07 02:34:32,957 | INFO | Entering a query...
+2026-01-07 02:34:33,503 | INFO | Page number 1
+2026-01-07 02:34:36,615 | INFO | Starting scrolling: 10 times
+2026-01-07 02:34:49,873 | INFO | Scrolling ended
+2026-01-07 02:34:49,938 | INFO | Vacancies found: 50
+2026-01-07 02:35:00,086 | INFO | Closing browser...
+2026-01-07 02:35:00,828 | INFO | Ending parser...

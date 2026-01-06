@@ -15,6 +15,8 @@ TIMEOUT = int(os.getenv("TIMEOUT", 10000))
 
 LOGS_DIR = os.getenv("LOGS_DIR")
 
+RESULTS_PATH = os.getenv("RESULTS_PATH")
+
 if not BASE_URL:
     raise ValueError("BASE_URL was not set in .env")
 
