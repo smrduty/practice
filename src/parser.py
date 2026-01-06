@@ -43,21 +43,42 @@ async def parse_items(query: str):
                 card = cards.nth(i)
                 try:
                     title = await card.locator("[data-qa='serp-item__title-text']").text_content()
-                except Exception:
-                    logger.warning("Couldn't get vacancy title")
+                except Exception as e:
+                    logger.warning(f"Couldn't get vacancy title{e}")
                     title = None
                 
                 try:
                     salary_locator = card.locator("div[class^='compensation-labels'] > span")
                     salary = await salary_locator.first.inner_text() if await salary_locator.count() else None
-
-                except Exception:
-                    logger.warning("Couldn't get vacancy salary")
+                except Exception as e:
+                    logger.warning(f"Couldn't get vacancy salary{e}")
                     salary = None
+
+                try:
+                    experience_locator = card.locator("[data-qa^='vacancy-serp__vacancy-work-experience-']:visible")
+                    experience = (await experience_locator.first.text_content()).strip() if await experience_locator.count() else ""
+                except Exception as e:
+                    logger.warning(f"Couldn't get an experience{e}")
+                    experience = None
+                
+                try:
+                    address_locator = card.locator("[data-qa='vacancy-serp__vacancy-address']:visible")
+                    address = (await address_locator.text_content()).strip() if await address_locator.count() else ""
+                    additional_address_locator = card.locator("[data-qa='address-metro-station-name']:visible")
+                    additional_address = (await additional_address_locator.text_content()).strip() if await additional_address_locator.count() else ""
+                    complete_address = address + " " + additional_address
+                except Exception as e:
+                    logger.warning(f"Got a problem with an address...{e}")
+                    complete_address = ""
+
+                #data-qa="vacancy-serp__vacancy-address"
+                #data-qa="address-metro-station-name"
 
                 results.append({
                     "title": title,
-                    "salary": salary
+                    "salary": salary,
+                    "experience": experience,
+                    "address": complete_address
                 })
 
             next_page_button = page.locator("[data-qa='pager-next']")
