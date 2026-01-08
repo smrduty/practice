@@ -1,10 +1,40 @@
 from playwright.async_api import async_playwright
+from playwright.async_api import Locator
+from typing import TypedDict, Optional
+from dataclasses import dataclass
+import asyncio
 
-from config import BASE_URL, HEADLESS, SCROLL_TIMES, SCROLL_PAUSE, MAX_PAGES
+from config import BASE_URL, HEADLESS, SCROLL_TIMES, SCROLL_PAUSE
 from logger import logger
 from utils import auto_scroll
+from models import Vacancy
 
-async def parse_items(query: str):
+import selectors
+
+semaphore = asyncio.Semaphore(5)
+
+async def safe_text(locator: Locator) -> Optional[str]:
+        return (await locator.text_content()).strip() if await locator.count() else None
+
+async def parse_card(card: Locator) -> Vacancy:
+    address = await safe_text(card.locator(selectors.VACANCY_ADDRESS))
+    address_additional = await safe_text(card.locator(selectors.VACANCY_ADDRESS_ADDITIONAL))
+    complete_address = " ".join(filter(None, [address, address_additional]))
+    return Vacancy(
+        title=await safe_text(card.locator(selectors.VACANCY_TITLE)),
+        salary=await safe_text(card.locator(selectors.VACANCY_SALARY)),
+        experience=await safe_text(card.locator(selectors.VACANCY_EXPERIENCE)),
+        address=complete_address,
+        url=await card.locator(selectors.VACANCY_URL).get_attribute("href")
+    )
+
+async def parse_card_limited(card: Locator) -> Vacancy:
+    async with semaphore:
+        return await parse_card(card)
+
+
+async def parse_items(query: str, max_pages: int):
+    #semaphore = asyncio.Semaphore(5)
     results = []
     logger.info("Starting parser...")
     logger.info(f"Searching query: {query}")
@@ -18,78 +48,36 @@ async def parse_items(query: str):
         await page.goto(BASE_URL, timeout=60_000)
 
         logger.info("Entering a query...")
-        await page.fill("input[data-qa='search-input']", query)
+        await page.fill(selectors.SEARCH_INPUT, query)
         await page.keyboard.press("Enter")
 
         await page.keyboard.press("Escape")
 
         #logger.info("Waiting for vacancies...")
-        for page_number in range(MAX_PAGES):
+        for page_number in range(max_pages):
             
             logger.info(f"Page number {page_number + 1}")
 
             try:
-                await page.wait_for_selector("[data-qa='vacancy-serp__vacancy']")
+                await page.wait_for_selector(selectors.VACANCY_CARD)
             except Exception:
                 logger.exception("No vacancies loaded")
                 return results
             
             await auto_scroll(page, SCROLL_TIMES, SCROLL_PAUSE)
             
-            cards = page.locator("[data-qa='vacancy-serp__vacancy']")
+            cards = page.locator(selectors.VACANCY_CARD)
             count = await cards.count()
             logger.info(f"Vacancies found: {count}")
-            for i in range(count):
-                card = cards.nth(i)
-                try:
-                    title = await card.locator("[data-qa='serp-item__title-text']").text_content()
-                except Exception as e:
-                    logger.warning(f"Couldn't get vacancy title{e}")
-                    title = None
-                
-                try:
-                    salary_locator = card.locator("div[class^='compensation-labels'] > span")
-                    salary = await salary_locator.first.inner_text() if await salary_locator.count() else None
-                except Exception as e:
-                    logger.warning(f"Couldn't get vacancy salary{e}")
-                    salary = None
+            
+            tasks = [
+                parse_card_limited(cards.nth(i))
+                for i in range(count)
+            ]
+            page_results = await asyncio.gather(*tasks)
+            results.extend(page_results)
 
-                try:
-                    experience_locator = card.locator("[data-qa^='vacancy-serp__vacancy-work-experience-']:visible")
-                    experience = (await experience_locator.first.text_content()).strip() if await experience_locator.count() else ""
-                except Exception as e:
-                    logger.warning(f"Couldn't get an experience{e}")
-                    experience = None
-                
-                try:
-                    address_locator = card.locator("[data-qa='vacancy-serp__vacancy-address']:visible")
-                    address = (await address_locator.text_content()).strip() if await address_locator.count() else ""
-                    additional_address_locator = card.locator("[data-qa='address-metro-station-name']:visible")
-                    additional_address = (await additional_address_locator.text_content()).strip() if await additional_address_locator.count() else ""
-                    complete_address = address + " " + additional_address
-                except Exception as e:
-                    logger.warning(f"Got a problem with an address...{e}")
-                    complete_address = ""
-
-                try:
-                    url_locator = card.locator("[data-qa='serp-item__title']")
-                    url = await url_locator.get_attribute("href") if await url_locator.count() else None
-                except Exception as e:
-                    logger.warning(f"Couldn't get vacancy URL")
-                    url = None
-
-                #data-qa="vacancy-serp__vacancy-address"
-                #data-qa="address-metro-station-name"
-
-                results.append({
-                    "title": title,
-                    "salary": salary,
-                    "experience": experience,
-                    "address": complete_address,
-                    "url": url
-                })
-
-            next_page_button = page.locator("[data-qa='pager-next']")
+            next_page_button = page.locator(selectors.NEXT_PAGE_BUTTON)
             if await next_page_button.count() == 0:
                 logger.info("NO next page button")
                 break
