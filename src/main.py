@@ -9,6 +9,7 @@ from config import MAX_PAGES
 from dataclasses import asdict
 from typing import List
 from models import Vacancy
+from db import init_db, save_vacancy
 
 parser = argparse.ArgumentParser(
     description="Job parser hh.ru"
@@ -32,12 +33,19 @@ args = parser.parse_args()
 
 async def main() -> None:
     vacancies: List[Vacancy] = await parse_items(args.query, args.pages)
-    rows = [asdict(vacancy) for vacancy in vacancies]
-    df = pd.DataFrame(rows)
-    df.drop_duplicates(subset=["url"], inplace=True)
-    df["parsed_at"] = datetime.now().isoformat()
-    df["query"] = args.query
-    df.to_csv(RESULTS_PATH, index=False, encoding='utf-8')
+
+    conn = init_db()
+
+    for vacancy in vacancies:
+        save_vacancy(conn, vacancy)
+
+    conn.close()
+    # rows = [asdict(vacancy) for vacancy in vacancies]
+    # df = pd.DataFrame(rows)
+    # df.drop_duplicates(subset=["url"], inplace=True)
+    # df["parsed_at"] = datetime.now().isoformat()
+    # df["query"] = args.query
+    # df.to_csv(RESULTS_PATH, index=False, encoding='utf-8')
     
 
 
