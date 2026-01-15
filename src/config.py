@@ -6,6 +6,10 @@ load_dotenv()
 
 BASE_URL = os.getenv("BASE_URL")
 SEARCH_QUERY = os.getenv("SEARCH_QUERY")
+REGION = os.getenv("REGION")
+
+# Minimum salary filter (default 0 if not set)
+SALARY_FROM = os.getenv("SALARY_FROM", "0")
 
 HEADLESS = os.getenv("HEADLESS", "true").lower() == "true"
 

@@ -6,6 +6,8 @@ from parser import parse_items
 from config import SEARCH_QUERY
 from config import RESULTS_PATH
 from config import MAX_PAGES
+from config import REGION
+from config import SALARY_FROM
 from dataclasses import asdict
 from typing import List
 from models import Vacancy
@@ -29,10 +31,26 @@ parser.add_argument(
     help="Max pages to parse(by default from .env)"
 )
 
+parser.add_argument(
+    "--region",
+    type=str,
+    default=REGION,
+    help="Region to parse(by default from .env)"
+)
+
+# Salary filter argument (minimum salary)
+parser.add_argument(
+    "--salary-from",
+    type=str,
+    default=SALARY_FROM,
+    help="Minimum salary to filter vacancies (by default from .env)"
+)
+
+
 args = parser.parse_args()
 
 async def main() -> None:
-    vacancies: List[Vacancy] = await parse_items(args.query, args.pages)
+    vacancies: List[Vacancy] = await parse_items(args.query, args.pages, args.region, args.salary_from)
 
     conn = init_db()
 

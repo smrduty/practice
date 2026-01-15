@@ -1,6 +1,6 @@
 from logger import logger
 
-async def auto_scroll(page, scroll_times: int = 5, pause: int = 1000):
+async def auto_scroll(page, scroll_times: int = 1, pause: int = 1000):
     logger.info(f"Starting scrolling: {scroll_times} times")
 
     for i in range(scroll_times):
