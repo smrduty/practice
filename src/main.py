@@ -3,15 +3,12 @@ import asyncio
 import argparse
 from datetime import datetime
 from parser import parse_items
-from config import SEARCH_QUERY
-from config import RESULTS_PATH
-from config import MAX_PAGES
-from config import REGION
-from config import SALARY_FROM
+from config import config
 from dataclasses import asdict
 from typing import List
 from models import Vacancy
 from db import init_db, save_vacancy
+from notifications.telegram import send_random_no_experience_vacancy
 
 parser = argparse.ArgumentParser(
     description="Job parser hh.ru"
@@ -20,21 +17,21 @@ parser = argparse.ArgumentParser(
 parser.add_argument(
     "--query",
     type=str,
-    default=SEARCH_QUERY,
+    default=config['SEARCH_QUERY'],
     help="Search query(by default from .env)"
 )
 
 parser.add_argument(
     "--pages",
     type=int,
-    default=MAX_PAGES,
+    default=config['MAX_PAGES'],
     help="Max pages to parse(by default from .env)"
 )
 
 parser.add_argument(
     "--region",
     type=str,
-    default=REGION,
+    default=config['REGION'],
     help="Region to parse(by default from .env)"
 )
 
@@ -42,7 +39,7 @@ parser.add_argument(
 parser.add_argument(
     "--salary-from",
     type=str,
-    default=SALARY_FROM,
+    default=config['SALARY_FROM'],
     help="Minimum salary to filter vacancies (by default from .env)"
 )
 
@@ -53,17 +50,23 @@ async def main() -> None:
     vacancies: List[Vacancy] = await parse_items(args.query, args.pages, args.region, args.salary_from)
 
     conn = init_db()
+    cursor = conn.cursor()
+    cursor.execute("DELETE FROM vacancies;")
+    conn.commit()
 
     for vacancy in vacancies:
         save_vacancy(conn, vacancy)
 
+    rows = [asdict(vacancy) for vacancy in vacancies]
+    df = pd.DataFrame(rows)
+    df.drop_duplicates(subset=["url"], inplace=True)
+    df["parsed_at"] = datetime.now().isoformat()
+    df["query"] = args.query
+    df.to_csv(config['RESULTS_PATH'], index=False, encoding='utf-8')
+
+    await send_random_no_experience_vacancy(conn)
+
     conn.close()
-    # rows = [asdict(vacancy) for vacancy in vacancies]
-    # df = pd.DataFrame(rows)
-    # df.drop_duplicates(subset=["url"], inplace=True)
-    # df["parsed_at"] = datetime.now().isoformat()
-    # df["query"] = args.query
-    # df.to_csv(RESULTS_PATH, index=False, encoding='utf-8')
     
 
 

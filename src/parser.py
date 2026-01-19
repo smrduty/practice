@@ -4,15 +4,18 @@ from typing import TypedDict, Optional
 from dataclasses import dataclass
 import asyncio
 
-from config import BASE_URL, HEADLESS, SCROLL_TIMES, SCROLL_PAUSE, REGION
+from config import config
 from logger import logger
-from utils import auto_scroll
+from utils.scroll import auto_scroll
+from utils.retry import playwright_retry
 from models import Vacancy
 
 import selectors
 
 semaphore = asyncio.Semaphore(5)
 
+
+@playwright_retry()
 async def safe_text(locator: Locator) -> Optional[str]:
         #return (await locator.text_content()).strip() if await locator.count() else None
         el = locator.first
@@ -21,6 +24,8 @@ async def safe_text(locator: Locator) -> Optional[str]:
         text = await el.text_content()
         return text.strip() if text else None
 
+
+@playwright_retry()
 async def parse_card(card: Locator) -> Vacancy:
     address = await safe_text(card.locator(selectors.VACANCY_ADDRESS))
     address_additional = await safe_text(card.locator(selectors.VACANCY_ADDRESS_ADDITIONAL))
@@ -58,7 +63,7 @@ async def select_region(page, region: str):
     
     all_regions_count = await region_card.locator(selectors.FIT_REGIONS).count()
     await region_card.get_by_label(selectors.SEARCH_REGION_LABEL).fill(region)
-
+    
     await page.wait_for_function(
         """(args) => {
             const { root, selector, prev} = args;
@@ -70,9 +75,9 @@ async def select_region(page, region: str):
             "prev": all_regions_count
         }
     )
-
+    
     fit_regions = region_card.locator(selectors.FIT_REGIONS)
-
+    
     if await fit_regions.count() == 0:
         logger.warning("Entered region is missing...")
         return None
@@ -88,11 +93,11 @@ async def parse_items(query: str, max_pages: int, region: str, salary_from: str)
 
     async with async_playwright() as p:
         logger.info("Browser starting...")
-        browser = await p.chromium.launch(headless=HEADLESS, slow_mo=50)
+        browser = await p.chromium.launch(headless=config['HEADLESS'], slow_mo=50)
         page = await browser.new_page()
 
         logger.info("Following link...")
-        await page.goto(BASE_URL, timeout=60_000)
+        await page.goto(config['BASE_URL_HHRU'], timeout=60_000)
 
         logger.info("Entering a query...")
         await page.fill(selectors.SEARCH_INPUT, query)
@@ -111,7 +116,7 @@ async def parse_items(query: str, max_pages: int, region: str, salary_from: str)
                 logger.exception("No vacancies loaded")
                 return results
             
-            await auto_scroll(page, SCROLL_TIMES, SCROLL_PAUSE)
+            await auto_scroll(page, config['SCROLL_TIMES'], config['SCROLL_PAUSE'])
             
             cards = page.locator(selectors.VACANCY_CARD)
             count = await cards.count()
@@ -123,19 +128,19 @@ async def parse_items(query: str, max_pages: int, region: str, salary_from: str)
             ]
             page_results = await asyncio.gather(*tasks)
             results.extend(page_results)
-
+            
             # Try to click the standard "next page" button first
             next_page_button = page.locator(selectors.NEXT_PAGE_BUTTON)
             if await next_page_button.count() > 0:
                 await next_page_button.click()
                 continue
-
+            
             # If the explicit next button is missing, fall back to pagination numbers
             page_buttons = page.locator(selectors.PAGER_PAGE)
             if await page_buttons.count() == 0:
                 logger.info("NO pagination controls found – ending pagination")
                 break
-
+            
             # Determine the currently active page (has aria-current="true")
             current_button = page.locator(f"{selectors.PAGER_PAGE}[aria-current='true']")
             if await current_button.count() == 0:
@@ -148,7 +153,7 @@ async def parse_items(query: str, max_pages: int, region: str, salary_from: str)
                     current_index = int(current_text.strip()) - 1
                 except Exception:
                     current_index = 0
-
+            
             # Click the next page number if it exists
             next_index = current_index + 1
             if next_index < await page_buttons.count():
@@ -157,10 +162,10 @@ async def parse_items(query: str, max_pages: int, region: str, salary_from: str)
             else:
                 logger.info("Reached last pagination button – ending pagination")
                 break
-
+        
         logger.info("Closing browser...")
         await browser.close()
-
+    
     logger.info("Ending parser...")
     return results
 

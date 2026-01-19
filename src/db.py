@@ -1,9 +1,12 @@
 import sqlite3
 from datetime import datetime
 from models import Vacancy
+import random
+from config import config
 
-def init_db(path: str = "vacancies.db"):
-    conn = sqlite3.connect(path)
+def init_db():
+    db_path = config["DB_PATH"]
+    conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
 
     cursor.execute("""
@@ -39,10 +42,36 @@ def save_vacancy(conn, vacancy: Vacancy):
         salary_to,
         vacancy.experience,
         vacancy.address,
-        vacancy.url,
+        vacancy.full_url(),
         datetime.now().isoformat()
     ))
 
     conn.commit()
+
+def get_random_no_experience_vacancy(conn):
+    cursor = conn.cursor()
+
+    cursor.execute(
+        """
+        SELECT title, salary, experience, address, url
+        FROM vacancies
+        WHERE experience IS NOT NULL
+          AND experience LIKE '%Без опыта%' COLLATE NOCASE
+        """
+    )
+
+    rows = cursor.fetchall()
+    if not rows:
+        return None
+
+    row = random.choice(rows)
+
+    return Vacancy(
+        title=row[0],
+        salary=row[1],
+        experience=row[2],
+        address=row[3],
+        url=row[4],
+    )
 
 
