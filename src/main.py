@@ -9,6 +9,8 @@ from typing import List
 from models import Vacancy
 from db import init_db, save_vacancy
 from notifications.telegram import send_random_no_experience_vacancy
+from parsers_registry import PARSERS
+from logger import logger
 
 parser = argparse.ArgumentParser(
     description="Job parser hh.ru"
@@ -43,11 +45,46 @@ parser.add_argument(
     help="Minimum salary to filter vacancies (by default from .env)"
 )
 
+parser.add_argument(
+    "--sites",
+    nargs="+",
+    default=["hh"],
+    help="Sites to parse (hh,  avito, ...)"
+)
 
-args = parser.parse_args()
+
+#args = parser.parse_args()
+
+async def collect_vacancies(args) -> List[Vacancy]:
+    all_vacancies: List[Vacancy] = []
+
+    for site in args.sites:
+        parser_cls = PARSERS[site]
+
+        if not parser_cls:
+            logger.warning(f"Parser for site: '{site}' not found, skipping...")
+            continue
+        
+        logger.info(f"Running parser for site: '{site}'")
+        parser = parser_cls()
+        site_vacancies = await parser.parse(
+            query=args.query,
+            max_pages=args.pages,
+            region=args.region,
+            salary_from=args.salary_from
+        )
+
+        all_vacancies.extend(site_vacancies)
+    
+    return all_vacancies
 
 async def main() -> None:
-    vacancies: List[Vacancy] = await parse_items(args.query, args.pages, args.region, args.salary_from)
+    args = parser.parse_args()
+    vacancies = await collect_vacancies(args)
+
+    if not vacancies:
+        logger.warning("No vacancies found...")
+        return
 
     conn = init_db()
     cursor = conn.cursor()

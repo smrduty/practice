@@ -32,6 +32,10 @@ def load_config():
     if not BASE_URL_HHRU:
         errors.append("BASE_URL_HHRU is required but was not set")
 
+    BASE_URL_AVITO = os.getenv("BASE_URL_AVITO")
+    if not BASE_URL_AVITO:
+        errors.append("BASE_URL_AVITO is required but was not set")
+
     SEARCH_QUERY = os.getenv("SEARCH_QUERY")
     if not SEARCH_QUERY:
         errors.append("SEARCH_QUERY is required but was not set")
@@ -98,6 +102,7 @@ def load_config():
     return {
         "BASE_DIR": BASE_DIR,
         "BASE_URL_HHRU": BASE_URL_HHRU,
+        "BASE_URL_AVITO": BASE_URL_AVITO,
         "SEARCH_QUERY": SEARCH_QUERY,
         "REGION": REGION,
         "SALARY_FROM": SALARY_FROM,

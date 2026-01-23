@@ -42,7 +42,7 @@ def save_vacancy(conn, vacancy: Vacancy):
         salary_to,
         vacancy.experience,
         vacancy.address,
-        vacancy.full_url(),
+        vacancy.url,
         datetime.now().isoformat()
     ))
 
@@ -56,7 +56,10 @@ def get_random_no_experience_vacancy(conn):
         SELECT title, salary, experience, address, url
         FROM vacancies
         WHERE experience IS NOT NULL
-          AND experience LIKE '%Без опыта%' COLLATE NOCASE
+          AND (
+            experience LIKE '%без опыта%' COLLATE NOCASE
+            OR experience LIKE '%Без опыта%' COLLATE NOCASE
+            )
         """
     )
 
