@@ -1,6 +1,14 @@
 from dataclasses import dataclass
-from typing import Optional, Tuple
+from typing import Optional, Tuple, List
 import re
+
+@dataclass
+class ParserConfig:
+    query: str
+    region: str
+    pages: int
+    salary_from: int
+    sites: List[str]
 
 @dataclass(slots=True)
 class Vacancy:

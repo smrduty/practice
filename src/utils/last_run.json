@@ -1,0 +1,10 @@
+{
+  "query": "грузчик",
+  "region": "Санкт-Петербург",
+  "pages": 2,
+  "salary_from": 15000,
+  "sites": [
+    "hh",
+    "avito"
+  ]
+}

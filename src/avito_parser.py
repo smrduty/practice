@@ -8,7 +8,7 @@ from utils.scroll import auto_scroll
 from models import Vacancy
 
 from base_parser import BaseParser
-import selectors
+import parser_selectors
 from config import config
 
 import re
@@ -77,9 +77,9 @@ class AVITOParser(BaseParser):
         await query_input.fill(query)
         await self.page.keyboard.press("Enter")
 
-    async def fill_salary_from(self, salary_from: str):
+    async def fill_salary_from(self, salary_from: int):
         salary_from_element = self.page.locator('[marker="price-from"]')
-        await salary_from_element.fill(salary_from)
+        await salary_from_element.fill(str(salary_from))
         submit_button = self.page.locator('[data-marker="search-filters/submit-button"]')
         await submit_button.click()
 

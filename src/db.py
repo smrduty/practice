@@ -1,10 +1,13 @@
+import random
 import sqlite3
 from datetime import datetime
 from models import Vacancy
 from typing import List, Optional, Dict
+from config import config
 
-def init_db(path: str = "vacancies.db"):
-    conn = sqlite3.connect(path)
+def init_db():
+    db_path = config["DB_PATH"]
+    conn = sqlite3.connect(db_path)
     conn.row_factory = sqlite3.Row
     cursor = conn.cursor()
 
@@ -31,8 +34,6 @@ def save_vacancy(conn, vacancy: Vacancy):
 
     salary_from, salary_to = vacancy.parse_salary()
 
-    url = vacancy.full_url() or vacancy.url
-
     cursor.execute("""
     INSERT OR IGNORE INTO vacancies
     (title, salary, salary_from, salary_to, experience, address, url, parsed_at)
@@ -44,11 +45,33 @@ def save_vacancy(conn, vacancy: Vacancy):
         salary_to,
         vacancy.experience,
         vacancy.address,
-        url,
+        vacancy.url,
         datetime.now().isoformat()
     ))
 
     conn.commit()
+
+def delete_vacancy_by_id(conn, vacancy_id: int):
+    cursor = conn.cursor()
+
+    cursor.execute(
+        "DELETE FROM vacancies WHERE id = ?",
+        (vacancy_id,)
+    )
+
+    conn.commit()
+    return cursor.rowcount > 0
+
+# def take_vacancy_by_id(conn, id: int):
+#     cursor = conn.cursor()
+
+#     cursor.execute(
+#         "SELECT FROM vacancies WHERE id = ?",
+#         (id,)
+#     )
+
+#     conn.commit()
+    
 
 def _row_to_dict(row: sqlite3.Row) -> Dict:
     return {
@@ -88,3 +111,35 @@ def fetch_vacancies(conn, limit: int = 100, search: Optional[str] = None, by_id:
 
     rows = cursor.fetchall()
     return [_row_to_dict(r) for r in rows]
+
+
+def get_random_no_experience_vacancy(conn):
+    cursor = conn.cursor()
+
+    cursor.execute(
+        """
+        SELECT title, salary, experience, address, url
+        FROM vacancies
+        WHERE experience IS NOT NULL
+          AND (
+            experience LIKE '%без опыта%' COLLATE NOCASE
+            OR experience LIKE '%Без опыта%' COLLATE NOCASE
+            )
+        """
+    )
+
+    rows = cursor.fetchall()
+    if not rows:
+        return None
+
+    row = random.choice(rows)
+
+
+    return Vacancy(
+        title=row[0],
+        salary=row[1],
+        experience=row[2],
+        address=row[3],
+        url=row[4],
+    )
+

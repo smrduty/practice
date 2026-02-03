@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Vacancies</title>
+  <link rel="stylesheet" href="/static/style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Результаты парсинга вакансий</h1>
+    <h2>всего вакансий: <span id="total-vacancies">nothing</span></h2>
+    <div class="controls">
+      <input id="q" placeholder="Поиск (title, address)"/>
+      <button id="refresh">Обновить</button>
+    </div>
+
+    <table id="vacancies">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Заголовок</th>
+          <th>Зарплата</th>
+          <th>Опыт</th>
+          <th>Адрес</th>
+          <th>Ссылка</th>
+          <th>Дата</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
