@@ -21,7 +21,8 @@ def init_db():
         experience TEXT,
         address TEXT,
         url TEXT UNIQUE,
-        parsed_at TEXT   
+        parsed_at TEXT,
+        is_favorite INTEGER DEFAULT 0
     )
     """
     )
@@ -62,6 +63,28 @@ def delete_vacancy_by_id(conn, vacancy_id: int):
     conn.commit()
     return cursor.rowcount > 0
 
+def add_to_favorites(conn, vacancy_id: int) -> bool:
+    cursor = conn.cursor()
+
+    cursor.execute(
+        "UPDATE vacancies SET is_favorite = 1 WHERE id = ?",
+        (vacancy_id,)
+    )
+
+    conn.commit()
+    return cursor.rowcount > 0
+
+def remove_from_favorites(conn, vacancy_id: int) -> bool:
+    cursor = conn.cursor()
+
+    cursor.execute(
+        "UPDATE vacancies SET is_favorite = 0 WHERE id = ?",
+        (vacancy_id,)
+    )
+
+    conn.commit()
+    return cursor.rowcount > 0
+
 # def take_vacancy_by_id(conn, id: int):
 #     cursor = conn.cursor()
 
@@ -83,10 +106,24 @@ def _row_to_dict(row: sqlite3.Row) -> Dict:
         "experience": row["experience"],
         "address": row["address"],
         "url": row["url"],
-        "parsed_at": row["parsed_at"]
+        "parsed_at": row["parsed_at"],
+        "is_favorite": row["is_favorite"]
     }
 
-def fetch_vacancies(conn, limit: int = 100, search: Optional[str] = None, by_id: Optional[int] = None) -> List[Dict]:
+def fetch_favorites(conn, limit: int = 1000) -> List[Dict]:
+    cursor = conn.cursor()
+
+    cursor.execute("""
+        SELECT * FROM vacancies
+        WHERE is_favorite = 1
+        ORDER BY parsed_at DESC
+        LIMIT ?
+    """, (limit,))
+
+    rows = cursor.fetchall()
+    return [_row_to_dict(r) for r in rows]
+
+def fetch_vacancies(conn, limit: int = 1000, search: Optional[str] = None, by_id: Optional[int] = None) -> List[Dict]:
     cursor = conn.cursor()
 
     if by_id is not None:

@@ -4,4 +4,4 @@ table { width: 100%; border-collapse: collapse; margin-top: 12px; }
 th, td { text-align: left; padding: 8px; border-bottom: 1px solid #eee; font-size: 14px; }
 .controls { display:flex; gap:8px; align-items:center; margin-top:8px; }
 input#q { flex:1; padding:8px; }
-button { padding:8px 12px; }
+button { padding:4px 4px; }

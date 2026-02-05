@@ -41,6 +41,22 @@ def api_vacancies(limit: Optional[int] = 1000, q: Optional[str] = None):
     finally:
         conn.close()
 
+@app.post("/api/vacancies/{vacancy_id}/favorite")
+def favorite(vacancy_id: int):
+    conn = db.init_db()
+    ok = db.add_to_favorites(conn, vacancy_id)
+    if not ok:
+        raise HTTPException(404, "Vacancy not found")
+    return {"favorite": True}
+
+@app.post("/api/vacancies/{vacancy_id}/unfavorite")
+def unfavorite(vacancy_id: int):
+    conn = db.init_db()
+    ok = db.remove_from_favorites(conn, vacancy_id)
+    if not ok:
+        raise HTTPException(404, "Vacancy not found")
+    return {"favorite": False}
+
 @app.get("/api/vacancies/{vacancy_id}")
 def api_vacancy(vacancy_id: int):
     conn = db.init_db()

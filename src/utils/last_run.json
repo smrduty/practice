@@ -1,8 +1,8 @@
 {
-  "query": "грузчик",
-  "region": "Санкт-Петербург",
-  "pages": 2,
-  "salary_from": 15000,
+  "query": "кассир",
+  "region": "Москва",
+  "pages": 1,
+  "salary_from": 10000,
   "sites": [
     "hh",
     "avito"

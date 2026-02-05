@@ -35,13 +35,16 @@ class HHParser(BaseParser):
         MAX_ATTEMPTS = 10
 
         for attempt in range(MAX_ATTEMPTS):
+            await show_all.click()
+            await self.page.wait_for_timeout(1000)
+
             if await region_card.locator(parser_selectors.FIT_REGIONS).count() > all_regions_count:
+                await self.page.wait_for_timeout(1000)
                 break
             
             logger.info(f"Opening all selecting regions (attempt {attempt + 1})")
 
-            await show_all.click()
-            await self.page.wait_for_timeout(1000)
+        all_regions_count = await region_card.locator(parser_selectors.FIT_REGIONS).count()
 
         await region_card.get_by_label(
             parser_selectors.SEARCH_REGION_LABEL
@@ -50,7 +53,7 @@ class HHParser(BaseParser):
         await self.page.wait_for_function(
             """(args) => {
                 const { root, selector, prev } = args;
-                return root.querySelectorAll(selector).length < prev;
+                return root.querySelectorAll(selector).length != prev;
             }""",
             arg={
                 "root": region_card_el,

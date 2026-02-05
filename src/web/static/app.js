@@ -10,6 +10,7 @@ async function load(q = "") {
 
   data.items.forEach(item => {
     const tr = document.createElement("tr");
+    const isFav = Number(item.is_favorite);
     tr.innerHTML = `
       <td>${item.id}</td>
       <td>${item.title || ""}</td>
@@ -21,6 +22,9 @@ async function load(q = "") {
       <td>
         <button onclick="sendToTelegram(${item.id})">📨</button>
         <button onclick="deleteVacancy(${item.id})">❌</button>
+        <button onclick="toggleFavorite(${item.id}, ${isFav})">
+          ${favoriteIcon(isFav)}
+        </button>
       </td>
     `;
     tbody.appendChild(tr);
@@ -28,6 +32,30 @@ async function load(q = "") {
 
   loadVacanciesCount()
 }
+
+function favoriteIcon(isFavorite) {
+  return isFavorite ? "⭐" : "🤍";
+}
+
+async function toggleFavorite(id, isFavorite) {
+  const url = isFavorite ? `/api/vacancies/${id}/unfavorite` : `/api/vacancies/${id}/favorite`;
+
+  await fetch(url, {method: "POST"});
+  
+  // btn.innerText = isFavorite ? "☆" : "⭐";
+  // btn.setAttribute(
+  //   "onclick",
+  //   `toggleFavorite(this, ${id}, ${!isFavorite})`
+  // );
+  load();
+}
+
+// async function favoriteVacancy(id) {
+//   const res = await fetch(`/api/vacancies/${id}/favorite`, {
+//     method: "POST"
+//   });
+//   return;
+// }
 
 async function loadVacanciesCount() {
   const response = await fetch(`/api/stats/count?`);
