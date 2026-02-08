@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 from typing import Optional
 from dataclasses import asdict
-from models import ParserConfig
+from src.models import ParserConfig
 
 CONFIG_PATH = Path(__file__).parent / "last_run.json"
 

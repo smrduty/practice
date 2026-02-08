@@ -8,7 +8,13 @@
 </head>
 <body>
   <div class="container">
-    <h1>Результаты парсинга вакансий</h1>
+    <div class="header">
+      <h1>Результаты парсинга вакансий</h1>
+      <div class="header-actions">
+        <button id="header-clear-btn">clear</button>
+        <button id="header-favorites-btn">⭐</button>
+      </div>
+    </div>
     <h2>всего вакансий: <span id="total-vacancies">nothing</span></h2>
     <div class="controls">
       <input id="q" placeholder="Поиск (title, address)"/>

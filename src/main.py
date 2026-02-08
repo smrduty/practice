@@ -2,16 +2,16 @@ import pandas as pd
 import asyncio
 import argparse
 from datetime import datetime
-from parser import parse_items
-from config import config
+#from parser import parse_items
+from src.config import config
 from dataclasses import asdict, dataclass
 from typing import List
-from models import Vacancy, ParserConfig
-from db import init_db, save_vacancy
-from notifications.telegram import send_random_no_experience_vacancy
-from parsers_registry import PARSERS
-from logger import logger
-from utils.last_config import save_last_config, load_last_config
+from src.models import Vacancy, ParserConfig
+from src.db import init_db, save_vacancy
+from src.notifications.tg_bot import send_random_no_experience_vacancy
+from src.parsers_registry import PARSERS
+from src.logger import logger
+from src.utils.last_config import save_last_config, load_last_config
 import sys
 
 import tkinter as tk

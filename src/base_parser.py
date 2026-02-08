@@ -2,10 +2,11 @@ import asyncio
 from typing import Optional
 
 from playwright.async_api import async_playwright, Locator
+from playwright.async_api import TimeoutError as PlaywrightTimeoutError
 
-from config import config
-from logger import logger
-from utils.retry import playwright_retry
+from src.config import config
+from src.logger import logger
+from src.utils.retry import playwright_retry
 
 # Ограничение параллельных карточек
 semaphore = asyncio.Semaphore(5)
@@ -38,6 +39,23 @@ class BaseParser:
         )
 
         self.page = await context.new_page()
+
+    @playwright_retry()
+    async def safe_goto(self, page, url: str):
+        logger.info("Following link...")
+        try:
+            await page.goto(
+                url=url,
+                timeout=120_000,
+                wait_until="domcontentloaded"
+            )
+        except PlaywrightTimeoutError:
+            logger.warning("Timeout on goto, reloading page...")
+            await page.reload(
+                timeout=120_000,
+                wait_until="domcontentloaded"
+            )
+            raise
 
     async def stop(self):
         logger.info("Closing browser...")

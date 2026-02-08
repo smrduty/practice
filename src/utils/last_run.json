@@ -1,8 +1,8 @@
 {
-  "query": "кассир",
-  "region": "Москва",
-  "pages": 1,
-  "salary_from": 10000,
+  "query": "python разработчик",
+  "region": "Санкт-Петербург",
+  "pages": 10,
+  "salary_from": 0,
   "sites": [
     "hh",
     "avito"

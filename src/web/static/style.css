@@ -5,3 +5,7 @@ th, td { text-align: left; padding: 8px; border-bottom: 1px solid #eee; font-siz
 .controls { display:flex; gap:8px; align-items:center; margin-top:8px; }
 input#q { flex:1; padding:8px; }
 button { padding:4px 4px; }
+.header-actions button {padding: 8px 12px; font-size: 14x; cursor: pointer;}
+#header-favorites-btn.active {
+    background: #ffeaa7;
+}

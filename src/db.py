@@ -1,9 +1,9 @@
 import random
 import sqlite3
 from datetime import datetime
-from models import Vacancy
+from src.models import Vacancy
 from typing import List, Optional, Dict
-from config import config
+from src.config import config
 
 def init_db():
     db_path = config["DB_PATH"]

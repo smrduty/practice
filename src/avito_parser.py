@@ -3,13 +3,13 @@ from typing import Optional
 
 from playwright.async_api import Locator
 
-from logger import logger
-from utils.scroll import auto_scroll
-from models import Vacancy
+from src.logger import logger
+from src.utils.scroll import auto_scroll
+from src.models import Vacancy
 
-from base_parser import BaseParser
-import parser_selectors
-from config import config
+from src.base_parser import BaseParser
+import src.parser_selectors
+from src.config import config
 
 import re
 
@@ -117,7 +117,7 @@ class AVITOParser(BaseParser):
         await self.start()
 
         logger.info(f"Following link...")
-        await self.page.goto(config["BASE_URL_AVITO"], timeout=60_000)
+        await self.safe_goto(self.page, url=config["BASE_URL_AVITO"])
 
         #await self.page.wait_for_load_state("networkidle")
 

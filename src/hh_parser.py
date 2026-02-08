@@ -3,13 +3,13 @@ from typing import Optional
 
 from playwright.async_api import Locator
 
-from logger import logger
-from utils.scroll import auto_scroll
-from models import Vacancy
+from src.logger import logger
+from src.utils.scroll import auto_scroll
+from src.models import Vacancy
 
-from base_parser import BaseParser
-import parser_selectors
-from config import config
+from src.base_parser import BaseParser
+import src.parser_selectors
+from src.config import config
 
 class HHParser(BaseParser):
 
@@ -21,16 +21,16 @@ class HHParser(BaseParser):
         return f"https://hh.ru{url}"
 
     async def specify_salary_from(self, salary: int):
-        salary_form = self.page.locator(parser_selectors.SALARY_FORM)
+        salary_form = self.page.locator(src.parser_selectors.SALARY_FORM)
         await salary_form.fill(str(salary))
         await self.page.keyboard.press("Enter")
 
     async def select_region(self, region: str):
-        region_card = self.page.locator(parser_selectors.REGION_CARD)
+        region_card = self.page.locator(src.parser_selectors.REGION_CARD)
         region_card_el = await region_card.element_handle()
 
-        all_regions_count = await region_card.locator(parser_selectors.FIT_REGIONS).count()
-        show_all = region_card.locator(parser_selectors.SHOW_ALL_REGIONS_BUTTON)
+        all_regions_count = await region_card.locator(src.parser_selectors.FIT_REGIONS).count()
+        show_all = region_card.locator(src.parser_selectors.SHOW_ALL_REGIONS_BUTTON)
 
         MAX_ATTEMPTS = 10
 
@@ -38,16 +38,16 @@ class HHParser(BaseParser):
             await show_all.click()
             await self.page.wait_for_timeout(1000)
 
-            if await region_card.locator(parser_selectors.FIT_REGIONS).count() > all_regions_count:
+            if await region_card.locator(src.parser_selectors.FIT_REGIONS).count() > all_regions_count:
                 await self.page.wait_for_timeout(1000)
                 break
             
             logger.info(f"Opening all selecting regions (attempt {attempt + 1})")
 
-        all_regions_count = await region_card.locator(parser_selectors.FIT_REGIONS).count()
+        all_regions_count = await region_card.locator(src.parser_selectors.FIT_REGIONS).count()
 
         await region_card.get_by_label(
-            parser_selectors.SEARCH_REGION_LABEL
+            src.parser_selectors.SEARCH_REGION_LABEL
         ).fill(region)
 
         await self.page.wait_for_function(
@@ -57,12 +57,12 @@ class HHParser(BaseParser):
             }""",
             arg={
                 "root": region_card_el,
-                "selector": parser_selectors.FIT_REGIONS,
+                "selector": src.parser_selectors.FIT_REGIONS,
                 "prev": all_regions_count
             }
         )
 
-        fit_regions = region_card.locator(parser_selectors.FIT_REGIONS)
+        fit_regions = region_card.locator(src.parser_selectors.FIT_REGIONS)
         if await fit_regions.count() == 0:
             logger.warning("Entered region is missing...")
             return None
@@ -72,22 +72,22 @@ class HHParser(BaseParser):
 
     async def parse_card(self, card: Locator) -> Vacancy:
         address = await self.safe_text(
-            card.locator(parser_selectors.VACANCY_ADDRESS)
+            card.locator(src.parser_selectors.VACANCY_ADDRESS)
         )
         address_additional = await self.safe_text(
-            card.locator(parser_selectors.VACANCY_ADDRESS_ADDITIONAL)
+            card.locator(src.parser_selectors.VACANCY_ADDRESS_ADDITIONAL)
         )
 
         complete_address = " ".join(
             filter(None, [address, address_additional])
         )
 
-        url = await card.locator(parser_selectors.VACANCY_URL).get_attribute("href")
+        url = await card.locator(src.parser_selectors.VACANCY_URL).get_attribute("href")
 
         return Vacancy(
-            title=await self.safe_text(card.locator(parser_selectors.VACANCY_TITLE)),
-            salary=await self.safe_text(card.locator(parser_selectors.VACANCY_SALARY)),
-            experience=await self.safe_text(card.locator(parser_selectors.VACANCY_EXPERIENCE)),
+            title=await self.safe_text(card.locator(src.parser_selectors.VACANCY_TITLE)),
+            salary=await self.safe_text(card.locator(src.parser_selectors.VACANCY_SALARY)),
+            experience=await self.safe_text(card.locator(src.parser_selectors.VACANCY_EXPERIENCE)),
             address=complete_address,
             url=self.make_full_url(url)
         )
@@ -100,11 +100,10 @@ class HHParser(BaseParser):
 
         await self.start()
 
-        logger.info("Following link...")
-        await self.page.goto(config["BASE_URL_HHRU"], timeout=60_000)
+        await self.safe_goto(self.page, url=config["BASE_URL_HHRU"])
 
         logger.info("Entering a query...")
-        await self.page.fill(parser_selectors.SEARCH_INPUT, query)
+        await self.page.fill(src.parser_selectors.SEARCH_INPUT, query)
         await self.page.keyboard.press("Enter")
 
         await self.select_region(region)
@@ -114,7 +113,7 @@ class HHParser(BaseParser):
             logger.info(f"Page number {page_number + 1}")
 
             try:
-                await self.page.wait_for_selector(parser_selectors.VACANCY_CARD)
+                await self.page.wait_for_selector(src.parser_selectors.VACANCY_CARD)
             except Exception:
                 logger.exception("No vacancies loaded")
                 break
@@ -125,7 +124,7 @@ class HHParser(BaseParser):
                 config["SCROLL_PAUSE"]
             )
 
-            cards = self.page.locator(parser_selectors.VACANCY_CARD)
+            cards = self.page.locator(src.parser_selectors.VACANCY_CARD)
             count = await cards.count()
             logger.info(f"Vacancies found: {count}")
 
@@ -139,18 +138,18 @@ class HHParser(BaseParser):
             page_results = await asyncio.gather(*tasks)
             results.extend(page_results)
 
-            next_page_button = self.page.locator(parser_selectors.NEXT_PAGE_BUTTON)
+            next_page_button = self.page.locator(src.parser_selectors.NEXT_PAGE_BUTTON)
             if await next_page_button.count() > 0:
                 await next_page_button.click()
                 continue
 
-            page_buttons = self.page.locator(parser_selectors.PAGER_PAGE)
+            page_buttons = self.page.locator(src.parser_selectors.PAGER_PAGE)
             if await page_buttons.count() == 0:
                 logger.info("NO pagination controls found – ending pagination")
                 break
 
             current_button = self.page.locator(
-                f"{parser_selectors.PAGER_PAGE}[aria-current='true']"
+                f"{src.parser_selectors.PAGER_PAGE}[aria-current='true']"
             )
 
             if await current_button.count() == 0:

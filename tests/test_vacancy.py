@@ -1,4 +1,4 @@
-from models import Vacancy
+from src.models import Vacancy
 
 def test_parse_salary_range():
     v = Vacancy(

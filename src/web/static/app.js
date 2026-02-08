@@ -1,3 +1,5 @@
+let showOnlyFavorites = false;
+
 async function load(q = "") {
   const params = new URLSearchParams();
   params.set("limit", 1000);
@@ -8,7 +10,9 @@ async function load(q = "") {
   const tbody = document.querySelector("#vacancies tbody");
   tbody.innerHTML = "";
 
-  data.items.forEach(item => {
+  data.items
+  .filter(item => !showOnlyFavorites || Number(item.is_favorite) === 1)
+  .forEach(item => {
     const tr = document.createElement("tr");
     const isFav = Number(item.is_favorite);
     tr.innerHTML = `
@@ -42,20 +46,8 @@ async function toggleFavorite(id, isFavorite) {
 
   await fetch(url, {method: "POST"});
   
-  // btn.innerText = isFavorite ? "☆" : "⭐";
-  // btn.setAttribute(
-  //   "onclick",
-  //   `toggleFavorite(this, ${id}, ${!isFavorite})`
-  // );
   load();
 }
-
-// async function favoriteVacancy(id) {
-//   const res = await fetch(`/api/vacancies/${id}/favorite`, {
-//     method: "POST"
-//   });
-//   return;
-// }
 
 async function loadVacanciesCount() {
   const response = await fetch(`/api/stats/count?`);
@@ -102,7 +94,38 @@ document.getElementById("refresh").addEventListener("click", () => {
   load(q);
 });
 
+// document.getElementById("header-favorites-btn").addEventListener("click", () => {
+//   alert("pyk");
+//   showOnlyFavorites = !showOnlyFavorites;
+
+//   const btn = document.getElementById("header-favorites-btn");
+//   btn.textContent = showOnlyFavorites ? "📋 Vse вакансии" : "⭐ Избранные";
+
+//   btn.classList.toggle("active", showOnlyFavorites);
+
+//   const q = document.getElementById("q").value.trim();
+//   load(q);
+// });
+
 // initial load
 document.addEventListener("DOMContentLoaded", () => {
   load();
+  const favBtn = document.getElementById("header-favorites-btn");
+  if (!favBtn) {
+    console.error("header-favorites-btn not found");
+    return;
+  }
+
+  favBtn.addEventListener("click", () => {
+    showOnlyFavorites = !showOnlyFavorites;
+
+    favBtn.textContent = showOnlyFavorites
+      ? "📋 Все вакансии"
+      : "⭐ Избранные";
+
+    favBtn.classList.toggle("active", showOnlyFavorites);
+
+    const q = document.getElementById("q").value.trim();
+    load(q);
+  });
 });
