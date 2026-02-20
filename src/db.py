@@ -63,6 +63,24 @@ def delete_vacancy_by_id(conn, vacancy_id: int):
     conn.commit()
     return cursor.rowcount > 0
 
+def toggle_favorites(conn, vacancy_id):
+    cursor = conn.cursor()
+
+    cursor.execute(
+        "SELECT is_favorite FROM vacancies WHERE id = ?",
+        (vacancy_id,)
+    )
+    row = cursor.fetchone()
+
+    if row is None:
+        return None
+    
+    is_favorite = row[0]
+    if is_favorite == 1:
+        remove_from_favorites(conn, vacancy_id)
+    else:
+        add_to_favorites(conn, vacancy_id)
+
 def add_to_favorites(conn, vacancy_id: int) -> bool:
     cursor = conn.cursor()
 

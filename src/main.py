@@ -8,7 +8,7 @@ from dataclasses import asdict, dataclass
 from typing import List
 from src.models import Vacancy, ParserConfig
 from src.db import init_db, save_vacancy
-from src.notifications.tg_bot import send_random_no_experience_vacancy
+#from src.notifications.tg_bot import send_random_no_experience_vacancy
 from src.parsers_registry import PARSERS
 from src.logger import logger
 from src.utils.last_config import save_last_config, load_last_config
@@ -190,7 +190,7 @@ async def main() -> None:
     df["query"] = cfg.query
     df.to_csv(config['RESULTS_PATH'], index=False, encoding='utf-8')
 
-    await send_random_no_experience_vacancy(conn)
+    #await send_random_no_experience_vacancy(conn)
 
     conn.close()
     
